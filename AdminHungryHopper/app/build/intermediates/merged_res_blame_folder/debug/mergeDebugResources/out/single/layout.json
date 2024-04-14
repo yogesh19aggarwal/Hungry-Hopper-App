@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-mergeDebugResources-30:\\layout\\check.xml",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-main-33:\\layout\\check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-mergeDebugResources-30:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-main-33:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-mergeDebugResources-30:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-main-33:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.adminhungryhopper.app-mergeDebugResources-30:/layout/activity_sign_up.xml",
+        "source": "com.example.adminhungryhopper.app-main-33:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-mergeDebugResources-30:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.adminhungryhopper.app-main-33:\\layout\\activity_login.xml"
+    }
+]

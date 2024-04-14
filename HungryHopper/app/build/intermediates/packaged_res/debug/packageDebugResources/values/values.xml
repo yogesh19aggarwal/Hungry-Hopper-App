@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="endColor">#15BE77</color>
+    <color name="ic_launcher_background">#3DDC84</color>
+    <color name="startColor">#53E88B</color>
+    <color name="textColor">#33c4a8</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Hungry Hopper</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="made_by">Design By\nYogesh Aggarwal</string>
+    <style name="Base.Theme.HungryHopper" parent="Theme.Material3.Light.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.HungryHopper" parent="Base.Theme.HungryHopper"/>
+</resources>
