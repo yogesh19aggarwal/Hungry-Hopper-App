@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.AdminHungryHopper" >
         <activity
+            android:name="com.example.adminhungryhopper.AllItemActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.adminhungryhopper.AddItemActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.adminhungryhopper.SignUpActivity"
             android:exported="false" />
         <activity
@@ -36,15 +42,16 @@
         <activity
             android:name="com.example.adminhungryhopper.SplashScreenActivity"
             android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.adminhungryhopper.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.adminhungryhopper.MainActivity"
-            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

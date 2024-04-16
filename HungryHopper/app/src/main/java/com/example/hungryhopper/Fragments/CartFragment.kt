@@ -31,7 +31,7 @@ class CartFragment : Fragment() {
             R.drawable.menu3,
             R.drawable.menu4,
             R.drawable.menu5,
-            R.drawable.menu6,
+            R.drawable.menu6
         )
 
         val adapter = CartAdapter(ArrayList(cartFood), ArrayList(cartItemPrice), ArrayList(cartImage))

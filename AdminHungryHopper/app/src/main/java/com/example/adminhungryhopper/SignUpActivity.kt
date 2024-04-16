@@ -34,7 +34,9 @@ class SignUpActivity : AppCompatActivity() {
         autoCompleteText.setAdapter(adapter)
 
         binding.createAccountBtn.setOnClickListener {
-
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
         binding.alreadyBtn.setOnClickListener {
