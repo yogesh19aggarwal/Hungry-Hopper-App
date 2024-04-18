@@ -124,6 +124,7 @@ id popularRecyclerView
 id proceed
 id profileFragment
 id quantity
+id recievedButton
 id searchFragment
 id searchRecyclerView
 id searchView

@@ -44,10 +44,10 @@ public final class ActivityMainBinding implements ViewBinding {
   public final CardView cardView5;
 
   @NonNull
-  public final CardView cardView6;
+  public final CardView cardView7;
 
   @NonNull
-  public final CardView cardView7;
+  public final ConstraintLayout createUser;
 
   @NonNull
   public final Guideline guideline;
@@ -89,7 +89,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView imageView9;
 
   @NonNull
+  public final ConstraintLayout logOutBtn;
+
+  @NonNull
   public final ConstraintLayout main;
+
+  @NonNull
+  public final CardView outForDeliveryBtn;
+
+  @NonNull
+  public final TextView pendingOrders;
+
+  @NonNull
+  public final ConstraintLayout profileBtn;
 
   @NonNull
   public final TextView texView19;
@@ -101,22 +113,21 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView textView7;
 
   @NonNull
-  public final TextView textView8;
-
-  @NonNull
   public final TextView textView9;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout addMenuMain, @NonNull ConstraintLayout allItemMenu,
       @NonNull CardView cardView, @NonNull CardView cardView2, @NonNull CardView cardView3,
-      @NonNull CardView cardView4, @NonNull CardView cardView5, @NonNull CardView cardView6,
-      @NonNull CardView cardView7, @NonNull Guideline guideline, @NonNull Guideline guideline2,
-      @NonNull Guideline guideline3, @NonNull ImageView imageView10, @NonNull ImageView imageView11,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull ImageView imageView6, @NonNull ImageView imageView7,
-      @NonNull ImageView imageView8, @NonNull ImageView imageView9, @NonNull ConstraintLayout main,
-      @NonNull TextView texView19, @NonNull TextView textView10, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull CardView cardView4, @NonNull CardView cardView5, @NonNull CardView cardView7,
+      @NonNull ConstraintLayout createUser, @NonNull Guideline guideline,
+      @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView10,
+      @NonNull ImageView imageView11, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
+      @NonNull ImageView imageView4, @NonNull ImageView imageView5, @NonNull ImageView imageView6,
+      @NonNull ImageView imageView7, @NonNull ImageView imageView8, @NonNull ImageView imageView9,
+      @NonNull ConstraintLayout logOutBtn, @NonNull ConstraintLayout main,
+      @NonNull CardView outForDeliveryBtn, @NonNull TextView pendingOrders,
+      @NonNull ConstraintLayout profileBtn, @NonNull TextView texView19,
+      @NonNull TextView textView10, @NonNull TextView textView7, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.addMenuMain = addMenuMain;
     this.allItemMenu = allItemMenu;
@@ -125,8 +136,8 @@ public final class ActivityMainBinding implements ViewBinding {
     this.cardView3 = cardView3;
     this.cardView4 = cardView4;
     this.cardView5 = cardView5;
-    this.cardView6 = cardView6;
     this.cardView7 = cardView7;
+    this.createUser = createUser;
     this.guideline = guideline;
     this.guideline2 = guideline2;
     this.guideline3 = guideline3;
@@ -140,11 +151,14 @@ public final class ActivityMainBinding implements ViewBinding {
     this.imageView7 = imageView7;
     this.imageView8 = imageView8;
     this.imageView9 = imageView9;
+    this.logOutBtn = logOutBtn;
     this.main = main;
+    this.outForDeliveryBtn = outForDeliveryBtn;
+    this.pendingOrders = pendingOrders;
+    this.profileBtn = profileBtn;
     this.texView19 = texView19;
     this.textView10 = textView10;
     this.textView7 = textView7;
-    this.textView8 = textView8;
     this.textView9 = textView9;
   }
 
@@ -217,15 +231,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cardView6;
-      CardView cardView6 = ViewBindings.findChildViewById(rootView, id);
-      if (cardView6 == null) {
-        break missingId;
-      }
-
       id = R.id.cardView7;
       CardView cardView7 = ViewBindings.findChildViewById(rootView, id);
       if (cardView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.createUser;
+      ConstraintLayout createUser = ViewBindings.findChildViewById(rootView, id);
+      if (createUser == null) {
         break missingId;
       }
 
@@ -307,7 +321,31 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.logOutBtn;
+      ConstraintLayout logOutBtn = ViewBindings.findChildViewById(rootView, id);
+      if (logOutBtn == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.outForDeliveryBtn;
+      CardView outForDeliveryBtn = ViewBindings.findChildViewById(rootView, id);
+      if (outForDeliveryBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.pendingOrders;
+      TextView pendingOrders = ViewBindings.findChildViewById(rootView, id);
+      if (pendingOrders == null) {
+        break missingId;
+      }
+
+      id = R.id.profileBtn;
+      ConstraintLayout profileBtn = ViewBindings.findChildViewById(rootView, id);
+      if (profileBtn == null) {
+        break missingId;
+      }
 
       id = R.id.texView19;
       TextView texView19 = ViewBindings.findChildViewById(rootView, id);
@@ -327,12 +365,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView8;
-      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
-      if (textView8 == null) {
-        break missingId;
-      }
-
       id = R.id.textView9;
       TextView textView9 = ViewBindings.findChildViewById(rootView, id);
       if (textView9 == null) {
@@ -340,10 +372,11 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, addMenuMain, allItemMenu,
-          cardView, cardView2, cardView3, cardView4, cardView5, cardView6, cardView7, guideline,
+          cardView, cardView2, cardView3, cardView4, cardView5, cardView7, createUser, guideline,
           guideline2, guideline3, imageView10, imageView11, imageView2, imageView3, imageView4,
-          imageView5, imageView6, imageView7, imageView8, imageView9, main, texView19, textView10,
-          textView7, textView8, textView9);
+          imageView5, imageView6, imageView7, imageView8, imageView9, logOutBtn, main,
+          outForDeliveryBtn, pendingOrders, profileBtn, texView19, textView10, textView7,
+          textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

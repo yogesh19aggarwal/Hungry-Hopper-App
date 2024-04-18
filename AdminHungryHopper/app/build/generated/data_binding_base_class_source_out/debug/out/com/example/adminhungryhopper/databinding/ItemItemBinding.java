@@ -22,6 +22,9 @@ public final class ItemItemBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final CardView cardView;
+
+  @NonNull
   public final ImageButton deleteButton;
 
   @NonNull
@@ -42,11 +45,13 @@ public final class ItemItemBinding implements ViewBinding {
   @NonNull
   public final TextView quantity;
 
-  private ItemItemBinding(@NonNull CardView rootView, @NonNull ImageButton deleteButton,
-      @NonNull ImageView foodImageView, @NonNull TextView foodNameTextView,
-      @NonNull ImageButton minusButton, @NonNull ImageButton plusButton,
-      @NonNull TextView pricetextView, @NonNull TextView quantity) {
+  private ItemItemBinding(@NonNull CardView rootView, @NonNull CardView cardView,
+      @NonNull ImageButton deleteButton, @NonNull ImageView foodImageView,
+      @NonNull TextView foodNameTextView, @NonNull ImageButton minusButton,
+      @NonNull ImageButton plusButton, @NonNull TextView pricetextView,
+      @NonNull TextView quantity) {
     this.rootView = rootView;
+    this.cardView = cardView;
     this.deleteButton = deleteButton;
     this.foodImageView = foodImageView;
     this.foodNameTextView = foodNameTextView;
@@ -83,6 +88,12 @@ public final class ItemItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardView;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
+        break missingId;
+      }
+
       id = R.id.deleteButton;
       ImageButton deleteButton = ViewBindings.findChildViewById(rootView, id);
       if (deleteButton == null) {
@@ -125,8 +136,8 @@ public final class ItemItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemItemBinding((CardView) rootView, deleteButton, foodImageView, foodNameTextView,
-          minusButton, plusButton, pricetextView, quantity);
+      return new ItemItemBinding((CardView) rootView, cardView, deleteButton, foodImageView,
+          foodNameTextView, minusButton, plusButton, pricetextView, quantity);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

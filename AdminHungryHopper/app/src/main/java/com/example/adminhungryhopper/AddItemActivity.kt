@@ -33,9 +33,6 @@ class AddItemActivity : AppCompatActivity() {
             finish()
         }
 
-
-
-
     }
     val pickImage = registerForActivityResult(ActivityResultContracts.PickVisualMedia()){uri->
         if(uri != null){

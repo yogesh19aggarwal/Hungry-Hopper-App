@@ -54,8 +54,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Food Name"
                 android:fontFamily="@font/yeonsung_regular"
+                android:text="Food Name"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/historyPrice"
@@ -66,8 +66,8 @@
                 android:id="@+id/historyPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="$5"
                 android:fontFamily="@font/lato_regular"
+                android:text="$5"
                 android:textColor="@color/textColor"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -81,9 +81,24 @@
                 android:layout_marginEnd="30dp"
                 app:cardBackgroundColor="#4CAF50"
                 app:cardCornerRadius="25dp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/recievedButton"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/recievedButton"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:background="@drawable/addcartshape"
+                android:fontFamily="@font/yeonsung_regular"
+                android:text="Recieved"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/orderStatus"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/orderStatus"
+                app:layout_constraintTop_toBottomOf="@+id/orderStatus" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

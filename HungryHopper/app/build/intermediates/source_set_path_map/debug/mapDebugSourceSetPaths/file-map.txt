@@ -42,10 +42,10 @@ com.example.hungryhopper.app-fragment-ktx-1.6.2-40 C:\Users\Yogesh Aggarwal\.gra
 com.example.hungryhopper.app-savedstate-ktx-1.2.1-41 C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-3\f69a1c52be0c96bd7637ead619f6e10a\transformed\savedstate-ktx-1.2.1\res
 com.example.hungryhopper.app-recyclerview-1.1.0-42 C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-3\f966adc457fad02daba8ed04c4d82e57\transformed\recyclerview-1.1.0\res
 com.example.hungryhopper.app-navigation-fragment-2.7.7-43 C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-3\fb3e869dcdc8eeed35e154ede832459b\transformed\navigation-fragment-2.7.7\res
-com.example.hungryhopper.app-pngs-44 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\generated\res\pngs\debug
-com.example.hungryhopper.app-resValues-45 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\generated\res\resValues\debug
-com.example.hungryhopper.app-packageDebugResources-46 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.hungryhopper.app-packageDebugResources-47 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.hungryhopper.app-debug-48 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.hungryhopper.app-debug-49 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\debug\res
-com.example.hungryhopper.app-main-50 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\res
+com.example.hungryhopper.app-pngs-44 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\generated\res\pngs\debug
+com.example.hungryhopper.app-resValues-45 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\generated\res\resValues\debug
+com.example.hungryhopper.app-packageDebugResources-46 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.hungryhopper.app-packageDebugResources-47 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.hungryhopper.app-debug-48 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.hungryhopper.app-debug-49 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\debug\res
+com.example.hungryhopper.app-main-50 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\res

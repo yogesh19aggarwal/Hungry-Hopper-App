@@ -20,91 +20,91 @@
 15-->[androidx.core:core:1.12.0] C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-3\9d1845a44d3545fcae170b46b069f9cb\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:5:5-51:19
+17-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:5:5-51:19
 18        android:allowBackup="true"
-18-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.12.0] C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-3\9d1845a44d3545fcae170b46b069f9cb\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:7:9-65
+20-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:enableOnBackInvokedCallback="true"
-22-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:14:9-51
+22-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:14:9-51
 23        android:extractNativeLibs="false"
 24        android:fullBackupContent="@xml/backup_rules"
-24-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:8:9-54
+24-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:8:9-54
 25        android:icon="@mipmap/ic_launcher"
-25-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:9:9-43
+25-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:9:9-43
 26        android:label="@string/app_name"
-26-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:10:9-41
+26-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:10:9-41
 27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:11:9-54
+27-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:11:9-54
 28        android:supportsRtl="true"
-28-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:12:9-35
+28-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:12:9-35
 29        android:testOnly="true"
 30        android:theme="@style/Theme.HungryHopper" >
-30-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:13:9-50
+30-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:13:9-50
 31        <activity
-31-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:16:9-18:40
+31-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:16:9-18:40
 32            android:name="com.example.hungryhopper.DetailsActivity"
-32-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:17:13-44
+32-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:17:13-44
 33            android:exported="false" />
-33-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:18:13-37
+33-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:18:13-37
 34        <activity
-34-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:19:9-21:40
+34-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:19:9-21:40
 35            android:name="com.example.hungryhopper.PayOutActivity"
-35-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:20:13-43
+35-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:20:13-43
 36            android:exported="false" />
-36-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:21:13-37
+36-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:21:13-37
 37        <activity
-37-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:22:9-24:40
+37-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:22:9-24:40
 38            android:name="com.example.hungryhopper.ChooseLocationActivity"
-38-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:23:13-51
+38-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:23:13-51
 39            android:exported="false" />
-39-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:24:13-37
+39-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:24:13-37
 40        <activity
-40-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:25:9-27:40
+40-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:25:9-27:40
 41            android:name="com.example.hungryhopper.Auth.SignUpActivity"
-41-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:26:13-48
+41-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:26:13-48
 42            android:exported="false" />
-42-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:27:13-37
+42-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:27:13-37
 43        <activity
-43-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:28:9-30:40
+43-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:28:9-30:40
 44            android:name="com.example.hungryhopper.Auth.LoginActivity"
-44-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:29:13-47
+44-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:29:13-47
 45            android:exported="false" />
-45-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:30:13-37
+45-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:30:13-37
 46        <activity
-46-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:31:9-33:40
+46-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:31:9-33:40
 47            android:name="com.example.hungryhopper.StartActivity"
-47-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:32:13-42
+47-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:32:13-42
 48            android:exported="false" />
-48-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:33:13-37
+48-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:33:13-37
 49        <activity
-49-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:34:9-44:20
+49-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:34:9-44:20
 50            android:name="com.example.hungryhopper.Splash_Screen"
-50-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:35:13-42
+50-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:35:13-42
 51            android:exported="true" >
-51-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:36:13-36
+51-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:36:13-36
 52            <intent-filter>
-52-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:38:13-42:29
+52-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:38:13-42:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:39:17-69
-53-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:39:25-66
+53-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:39:17-69
+53-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:39:25-66
 54
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:41:17-77
-55-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:41:27-74
+55-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:41:17-77
+55-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:41:27-74
 56            </intent-filter>
 57        </activity>
 58        <activity
-58-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:45:9-50:20
+58-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:45:9-50:20
 59            android:name="com.example.hungryhopper.MainActivity"
-59-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:46:13-41
+59-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:46:13-41
 60            android:exported="true"
-60-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:47:13-36
+60-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:47:13-36
 61            android:windowSoftInputMode="adjustPan" >
-61-->C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\src\main\AndroidManifest.xml:48:13-52
+61-->C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\src\main\AndroidManifest.xml:48:13-52
 62        </activity>
 63
 64        <provider

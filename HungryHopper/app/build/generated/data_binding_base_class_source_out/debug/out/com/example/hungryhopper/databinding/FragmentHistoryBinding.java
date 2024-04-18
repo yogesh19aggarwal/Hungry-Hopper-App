@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
@@ -41,6 +42,9 @@ public final class FragmentHistoryBinding implements ViewBinding {
   public final CardView orderStatus;
 
   @NonNull
+  public final AppCompatButton recievedButton;
+
+  @NonNull
   public final TextView textView21;
 
   @NonNull
@@ -49,7 +53,8 @@ public final class FragmentHistoryBinding implements ViewBinding {
   private FragmentHistoryBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView2,
       @NonNull TextView historyFood, @NonNull ImageView historyImage,
       @NonNull TextView historyPrice, @NonNull RecyclerView historyRecyclerView,
-      @NonNull CardView orderStatus, @NonNull TextView textView21, @NonNull TextView textView24) {
+      @NonNull CardView orderStatus, @NonNull AppCompatButton recievedButton,
+      @NonNull TextView textView21, @NonNull TextView textView24) {
     this.rootView = rootView;
     this.cardView2 = cardView2;
     this.historyFood = historyFood;
@@ -57,6 +62,7 @@ public final class FragmentHistoryBinding implements ViewBinding {
     this.historyPrice = historyPrice;
     this.historyRecyclerView = historyRecyclerView;
     this.orderStatus = orderStatus;
+    this.recievedButton = recievedButton;
     this.textView21 = textView21;
     this.textView24 = textView24;
   }
@@ -124,6 +130,12 @@ public final class FragmentHistoryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recievedButton;
+      AppCompatButton recievedButton = ViewBindings.findChildViewById(rootView, id);
+      if (recievedButton == null) {
+        break missingId;
+      }
+
       id = R.id.textView21;
       TextView textView21 = ViewBindings.findChildViewById(rootView, id);
       if (textView21 == null) {
@@ -137,7 +149,8 @@ public final class FragmentHistoryBinding implements ViewBinding {
       }
 
       return new FragmentHistoryBinding((ConstraintLayout) rootView, cardView2, historyFood,
-          historyImage, historyPrice, historyRecyclerView, orderStatus, textView21, textView24);
+          historyImage, historyPrice, historyRecyclerView, orderStatus, recievedButton, textView21,
+          textView24);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

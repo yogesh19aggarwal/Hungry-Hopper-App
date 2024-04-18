@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.adminhungryhopper.Adapter.PendingOrderAdapter
 import com.example.adminhungryhopper.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        binding.pendingOrders.setOnClickListener {
+            val intent = Intent(this, PendingOrderActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.addMenuMain.setOnClickListener{
             val intent = Intent(this, AddItemActivity::class.java)
             startActivity(intent)
@@ -31,6 +37,27 @@ class MainActivity : AppCompatActivity() {
         binding.allItemMenu.setOnClickListener {
             val intent = Intent(this, AllItemActivity::class.java)
             startActivity(intent)
+        }
+
+        binding.profileBtn.setOnClickListener {
+            val intent = Intent(this, AdminProfileActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.createUser.setOnClickListener {
+            val intent = Intent(this, CreateUserActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.outForDeliveryBtn.setOnClickListener {
+            val intent = Intent(this, OutForDeliveryActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.logOutBtn.setOnClickListener{
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

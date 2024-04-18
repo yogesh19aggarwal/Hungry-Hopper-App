@@ -44,6 +44,5 @@ class AllItemActivity : AppCompatActivity() {
         binding.backBtn.setOnClickListener {
             finish()
         }
-
     }
 }

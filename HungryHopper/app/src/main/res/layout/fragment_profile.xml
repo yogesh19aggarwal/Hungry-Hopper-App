@@ -75,6 +75,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:ems="10"
+                android:padding="5dp"
                 android:fontFamily="@font/lato_regular"
                 android:inputType="textMultiLine"
                 android:text="Name Lorem ipsum is placeholder text commonly used in the graphic,print, and publishing industries for previewing layouts and visual."

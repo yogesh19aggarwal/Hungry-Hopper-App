@@ -28,6 +28,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.AdminHungryHopper" >
         <activity
+            android:name="com.example.adminhungryhopper.PendingOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.adminhungryhopper.CreateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.adminhungryhopper.AdminProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.adminhungryhopper.OutForDeliveryActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.adminhungryhopper.AllItemActivity"
             android:exported="false" />
         <activity
@@ -41,8 +53,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.adminhungryhopper.SplashScreenActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.adminhungryhopper.MainActivity"
             android:exported="true" >

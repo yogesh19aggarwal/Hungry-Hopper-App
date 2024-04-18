@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-mergeDebugResources-47:\\layout\\fragment_menu_bottom_sheet.xml",
-        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-main-50:\\layout\\fragment_menu_bottom_sheet.xml"
-    },
-    {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-mergeDebugResources-47:\\layout\\popular_item_list.xml",
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-main-50:\\layout\\popular_item_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-mergeDebugResources-47:\\layout\\fragment_menu_bottom_sheet.xml",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-main-50:\\layout\\fragment_menu_bottom_sheet.xml"
     },
     {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-mergeDebugResources-47:\\layout\\fragment_cart.xml",
@@ -52,6 +52,10 @@
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-main-50:\\layout\\activity_login.xml"
     },
     {
+        "merged": "com.example.hungryhopper.app-mergeDebugResources-47:/layout/fragment_history.xml",
+        "source": "com.example.hungryhopper.app-main-50:/layout/fragment_history.xml"
+    },
+    {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-mergeDebugResources-47:\\layout\\activity_sign_up.xml",
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-main-50:\\layout\\activity_sign_up.xml"
     },
@@ -82,9 +86,5 @@
     {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-mergeDebugResources-47:\\layout\\activity_splash_screen.xml",
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.4\\com.example.hungryhopper.app-main-50:\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.example.hungryhopper.app-mergeDebugResources-47:/layout/notifcation_item.xml",
-        "source": "com.example.hungryhopper.app-main-50:/layout/notifcation_item.xml"
     }
 ]
