@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.adminhungryhopper.app-mergeDebugResources-29:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.adminhungryhopper.app-mergeDebugResources-35:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\297a13e8295b08e58cd0526c51217bfb\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\521b8b7809404d5adaa2ebe43d37dc3f\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
