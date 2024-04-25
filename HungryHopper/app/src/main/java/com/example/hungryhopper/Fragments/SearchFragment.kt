@@ -8,10 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.hungryhopper.Model.MenuItems
 import com.example.hungryhopper.R
 import com.example.hungryhopper.adapter.MenuAdapter
 import com.example.hungryhopper.adapter.PopularAdapter
 import com.example.hungryhopper.databinding.FragmentSearchBinding
+import com.google.firebase.database.FirebaseDatabase
 
 
 class SearchFragment : Fragment() {
@@ -19,16 +21,21 @@ class SearchFragment : Fragment() {
     lateinit var binding: FragmentSearchBinding
     private lateinit var adapter : MenuAdapter
 
-    private val originalMenuFoodName = listOf("Burger", "Sandwich", "Veg Momos", "item", "Paneer Sandwich", "Paneer Momos")
-    val originalMenuPrice = listOf("$5", "$6", "$8", "$9", "$10", "$15")
-    val originalMenuFoodImages = listOf(
-        R.drawable.menu1,
-        R.drawable.menu2,
-        R.drawable.menu3,
-        R.drawable.menu4,
-        R.drawable.menu5,
-        R.drawable.menu6,
-    )
+    private lateinit var database: FirebaseDatabase
+    private lateinit var menuItems: MutableList<MenuItems>
+
+
+//        dummy data
+//    private val originalMenuFoodName = listOf("Burger", "Sandwich", "Veg Momos", "item", "Paneer Sandwich", "Paneer Momos")
+//    val originalMenuPrice = listOf("$5", "$6", "$8", "$9", "$10", "$15")
+//    val originalMenuFoodImages = listOf(
+//        R.drawable.menu1,
+//        R.drawable.menu2,
+//        R.drawable.menu3,
+//        R.drawable.menu4,
+//        R.drawable.menu5,
+//        R.drawable.menu6,
+//    )
 
 
     val filterMenuFoodName = mutableListOf<String>()

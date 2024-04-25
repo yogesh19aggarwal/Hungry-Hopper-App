@@ -26,25 +26,22 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final TextView alreadyHaveAcc;
 
   @NonNull
-  public final AppCompatButton button2;
+  public final EditText email;
 
   @NonNull
-  public final AppCompatButton button3;
+  public final AppCompatButton facebookSignIn;
 
   @NonNull
-  public final EditText editTextText;
-
-  @NonNull
-  public final EditText editTextTextEmailAddress2;
-
-  @NonNull
-  public final EditText editTextTextPassword2;
+  public final AppCompatButton googleSignIn;
 
   @NonNull
   public final ImageView imageView4;
 
   @NonNull
   public final ConstraintLayout main;
+
+  @NonNull
+  public final EditText password;
 
   @NonNull
   public final AppCompatButton signUpbtn;
@@ -64,29 +61,31 @@ public final class ActivitySignUpBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
+  @NonNull
+  public final EditText userName;
+
   private ActivitySignUpBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView alreadyHaveAcc, @NonNull AppCompatButton button2,
-      @NonNull AppCompatButton button3, @NonNull EditText editTextText,
-      @NonNull EditText editTextTextEmailAddress2, @NonNull EditText editTextTextPassword2,
-      @NonNull ImageView imageView4, @NonNull ConstraintLayout main,
+      @NonNull TextView alreadyHaveAcc, @NonNull EditText email,
+      @NonNull AppCompatButton facebookSignIn, @NonNull AppCompatButton googleSignIn,
+      @NonNull ImageView imageView4, @NonNull ConstraintLayout main, @NonNull EditText password,
       @NonNull AppCompatButton signUpbtn, @NonNull TextView textView10,
       @NonNull TextView textView12, @NonNull TextView textView13, @NonNull TextView textView14,
-      @NonNull TextView textView9) {
+      @NonNull TextView textView9, @NonNull EditText userName) {
     this.rootView = rootView;
     this.alreadyHaveAcc = alreadyHaveAcc;
-    this.button2 = button2;
-    this.button3 = button3;
-    this.editTextText = editTextText;
-    this.editTextTextEmailAddress2 = editTextTextEmailAddress2;
-    this.editTextTextPassword2 = editTextTextPassword2;
+    this.email = email;
+    this.facebookSignIn = facebookSignIn;
+    this.googleSignIn = googleSignIn;
     this.imageView4 = imageView4;
     this.main = main;
+    this.password = password;
     this.signUpbtn = signUpbtn;
     this.textView10 = textView10;
     this.textView12 = textView12;
     this.textView13 = textView13;
     this.textView14 = textView14;
     this.textView9 = textView9;
+    this.userName = userName;
   }
 
   @Override
@@ -122,33 +121,21 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button2;
-      AppCompatButton button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.email;
+      EditText email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
         break missingId;
       }
 
-      id = R.id.button3;
-      AppCompatButton button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
+      id = R.id.facebookSignIn;
+      AppCompatButton facebookSignIn = ViewBindings.findChildViewById(rootView, id);
+      if (facebookSignIn == null) {
         break missingId;
       }
 
-      id = R.id.editTextText;
-      EditText editTextText = ViewBindings.findChildViewById(rootView, id);
-      if (editTextText == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextEmailAddress2;
-      EditText editTextTextEmailAddress2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextEmailAddress2 == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPassword2;
-      EditText editTextTextPassword2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPassword2 == null) {
+      id = R.id.googleSignIn;
+      AppCompatButton googleSignIn = ViewBindings.findChildViewById(rootView, id);
+      if (googleSignIn == null) {
         break missingId;
       }
 
@@ -159,6 +146,12 @@ public final class ActivitySignUpBinding implements ViewBinding {
       }
 
       ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.password;
+      EditText password = ViewBindings.findChildViewById(rootView, id);
+      if (password == null) {
+        break missingId;
+      }
 
       id = R.id.signUpbtn;
       AppCompatButton signUpbtn = ViewBindings.findChildViewById(rootView, id);
@@ -196,9 +189,15 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySignUpBinding((ConstraintLayout) rootView, alreadyHaveAcc, button2,
-          button3, editTextText, editTextTextEmailAddress2, editTextTextPassword2, imageView4, main,
-          signUpbtn, textView10, textView12, textView13, textView14, textView9);
+      id = R.id.userName;
+      EditText userName = ViewBindings.findChildViewById(rootView, id);
+      if (userName == null) {
+        break missingId;
+      }
+
+      return new ActivitySignUpBinding((ConstraintLayout) rootView, alreadyHaveAcc, email,
+          facebookSignIn, googleSignIn, imageView4, main, password, signUpbtn, textView10,
+          textView12, textView13, textView14, textView9, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
