@@ -42,6 +42,9 @@ public final class FragmentHistoryBinding implements ViewBinding {
   public final CardView orderStatus;
 
   @NonNull
+  public final ConstraintLayout recentBuyItem;
+
+  @NonNull
   public final AppCompatButton recievedButton;
 
   @NonNull
@@ -53,8 +56,9 @@ public final class FragmentHistoryBinding implements ViewBinding {
   private FragmentHistoryBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView2,
       @NonNull TextView historyFood, @NonNull ImageView historyImage,
       @NonNull TextView historyPrice, @NonNull RecyclerView historyRecyclerView,
-      @NonNull CardView orderStatus, @NonNull AppCompatButton recievedButton,
-      @NonNull TextView textView21, @NonNull TextView textView24) {
+      @NonNull CardView orderStatus, @NonNull ConstraintLayout recentBuyItem,
+      @NonNull AppCompatButton recievedButton, @NonNull TextView textView21,
+      @NonNull TextView textView24) {
     this.rootView = rootView;
     this.cardView2 = cardView2;
     this.historyFood = historyFood;
@@ -62,6 +66,7 @@ public final class FragmentHistoryBinding implements ViewBinding {
     this.historyPrice = historyPrice;
     this.historyRecyclerView = historyRecyclerView;
     this.orderStatus = orderStatus;
+    this.recentBuyItem = recentBuyItem;
     this.recievedButton = recievedButton;
     this.textView21 = textView21;
     this.textView24 = textView24;
@@ -130,6 +135,12 @@ public final class FragmentHistoryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recentBuyItem;
+      ConstraintLayout recentBuyItem = ViewBindings.findChildViewById(rootView, id);
+      if (recentBuyItem == null) {
+        break missingId;
+      }
+
       id = R.id.recievedButton;
       AppCompatButton recievedButton = ViewBindings.findChildViewById(rootView, id);
       if (recievedButton == null) {
@@ -149,8 +160,8 @@ public final class FragmentHistoryBinding implements ViewBinding {
       }
 
       return new FragmentHistoryBinding((ConstraintLayout) rootView, cardView2, historyFood,
-          historyImage, historyPrice, historyRecyclerView, orderStatus, recievedButton, textView21,
-          textView24);
+          historyImage, historyPrice, historyRecyclerView, orderStatus, recentBuyItem,
+          recievedButton, textView21, textView24);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

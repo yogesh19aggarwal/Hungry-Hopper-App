@@ -24,7 +24,10 @@ public final class ActivityDetailsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final AppCompatButton button;
+  public final AppCompatButton addToCart;
+
+  @NonNull
+  public final ImageButton backButton;
 
   @NonNull
   public final CardView cardView4;
@@ -39,9 +42,6 @@ public final class ActivityDetailsBinding implements ViewBinding {
   public final TextView detailFoodName;
 
   @NonNull
-  public final ImageButton imageButton;
-
-  @NonNull
   public final TextView ingredientsTextView;
 
   @NonNull
@@ -54,18 +54,18 @@ public final class ActivityDetailsBinding implements ViewBinding {
   public final TextView textView28;
 
   private ActivityDetailsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton button, @NonNull CardView cardView4,
-      @NonNull TextView descriptiontextView, @NonNull ImageView detailFoodImage,
-      @NonNull TextView detailFoodName, @NonNull ImageButton imageButton,
+      @NonNull AppCompatButton addToCart, @NonNull ImageButton backButton,
+      @NonNull CardView cardView4, @NonNull TextView descriptiontextView,
+      @NonNull ImageView detailFoodImage, @NonNull TextView detailFoodName,
       @NonNull TextView ingredientsTextView, @NonNull ConstraintLayout main,
       @NonNull TextView textView26, @NonNull TextView textView28) {
     this.rootView = rootView;
-    this.button = button;
+    this.addToCart = addToCart;
+    this.backButton = backButton;
     this.cardView4 = cardView4;
     this.descriptiontextView = descriptiontextView;
     this.detailFoodImage = detailFoodImage;
     this.detailFoodName = detailFoodName;
-    this.imageButton = imageButton;
     this.ingredientsTextView = ingredientsTextView;
     this.main = main;
     this.textView26 = textView26;
@@ -99,9 +99,15 @@ public final class ActivityDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      AppCompatButton button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
+      id = R.id.addToCart;
+      AppCompatButton addToCart = ViewBindings.findChildViewById(rootView, id);
+      if (addToCart == null) {
+        break missingId;
+      }
+
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
         break missingId;
       }
 
@@ -129,12 +135,6 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
-        break missingId;
-      }
-
       id = R.id.ingredientsTextView;
       TextView ingredientsTextView = ViewBindings.findChildViewById(rootView, id);
       if (ingredientsTextView == null) {
@@ -155,8 +155,8 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailsBinding((ConstraintLayout) rootView, button, cardView4,
-          descriptiontextView, detailFoodImage, detailFoodName, imageButton, ingredientsTextView,
+      return new ActivityDetailsBinding((ConstraintLayout) rootView, addToCart, backButton,
+          cardView4, descriptiontextView, detailFoodImage, detailFoodName, ingredientsTextView,
           main, textView26, textView28);
     }
     String missingId = rootView.getResources().getResourceName(id);

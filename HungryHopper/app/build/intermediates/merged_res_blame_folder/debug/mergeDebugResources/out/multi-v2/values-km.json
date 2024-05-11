@@ -4,58 +4,7 @@
             "outputFile": "com.example.hungryhopper.app-mergeDebugResources-52:/values-km/values-km.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\f18bd73cc422a8e699a6d511cc7c4acc\\transformed\\play-services-basement-18.3.0\\res\\values-km\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "144",
-                        "endOffsets": "339"
-                    },
-                    "to": {
-                        "startLines": "56",
-                        "startColumns": "4",
-                        "startOffsets": "5411",
-                        "endColumns": "148",
-                        "endOffsets": "5555"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\eb90fb7b0fba8d6609bf07b851eb16c7\\transformed\\navigation-ui-2.7.7\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,160",
-                        "endColumns": "104,104",
-                        "endOffsets": "155,260"
-                    },
-                    "to": {
-                        "startLines": "129,130",
-                        "startColumns": "4,4",
-                        "startOffsets": "11792,11897",
-                        "endColumns": "104,104",
-                        "endOffsets": "11892,11997"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\b5ff7ad282597f289622912fa129b526\\transformed\\browser-1.4.0\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,152,249,382",
-                        "endColumns": "96,96,132,99",
-                        "endOffsets": "147,244,377,477"
-                    },
-                    "to": {
-                        "startLines": "66,69,70,71",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6633,6889,6986,7119",
-                        "endColumns": "96,96,132,99",
-                        "endOffsets": "6725,6981,7114,7214"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\18d2e38a4ad1fdd003633caf1565d3eb\\transformed\\material-1.11.0\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\813e3227a50c8868192320ee851410bd\\transformed\\material-1.11.0\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\b160eabf19fb023b032fea1e9352547f\\transformed\\play-services-base-18.3.0\\res\\values-km\\values.xml",
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\2667706687429cb9ef5e4b0ba6473c76\\transformed\\play-services-base-18.3.0\\res\\values-km\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -91,7 +40,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\5544fa00732234b40ae62c2b34921497\\transformed\\appcompat-1.6.1\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\b6e390b54c5627fca9a4a7a456b56044\\transformed\\play-services-basement-18.3.0\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "144",
+                        "endOffsets": "339"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "5411",
+                        "endColumns": "148",
+                        "endOffsets": "5555"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\7d4bad37b6e6203a13c8d6db70e84255\\transformed\\navigation-ui-2.7.7\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,160",
+                        "endColumns": "104,104",
+                        "endOffsets": "155,260"
+                    },
+                    "to": {
+                        "startLines": "129,130",
+                        "startColumns": "4,4",
+                        "startOffsets": "11792,11897",
+                        "endColumns": "104,104",
+                        "endOffsets": "11892,11997"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\57c03fdeb37ac9280075fe43c3c569de\\transformed\\appcompat-1.6.1\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -108,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\f8df79d0555b99b93477139f2868e27e\\transformed\\core-1.12.0\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\5d2e888f751b0bb5bbe43bd2eaba18c4\\transformed\\core-1.12.0\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -122,6 +105,23 @@
                         "startOffsets": "3399,3494,3597,3695,3795,3896,4008,12169",
                         "endColumns": "94,102,97,99,100,111,111,100",
                         "endOffsets": "3489,3592,3690,3790,3891,4003,4115,12265"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\0b7b92259d3a01ddf93d086d47c9cef5\\transformed\\browser-1.4.0\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,152,249,382",
+                        "endColumns": "96,96,132,99",
+                        "endOffsets": "147,244,377,477"
+                    },
+                    "to": {
+                        "startLines": "66,69,70,71",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6633,6889,6986,7119",
+                        "endColumns": "96,96,132,99",
+                        "endOffsets": "6725,6981,7114,7214"
                     }
                 }
             ]

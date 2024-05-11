@@ -4,6 +4,7 @@ package com.example.hungryhopper.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,11 +21,29 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final AppCompatButton button4;
+  public final EditText address;
 
-  private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull AppCompatButton button4) {
+  @NonNull
+  public final EditText email;
+
+  @NonNull
+  public final EditText name;
+
+  @NonNull
+  public final EditText phoneNumber;
+
+  @NonNull
+  public final AppCompatButton saveBtn;
+
+  private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull EditText address,
+      @NonNull EditText email, @NonNull EditText name, @NonNull EditText phoneNumber,
+      @NonNull AppCompatButton saveBtn) {
     this.rootView = rootView;
-    this.button4 = button4;
+    this.address = address;
+    this.email = email;
+    this.name = name;
+    this.phoneNumber = phoneNumber;
+    this.saveBtn = saveBtn;
   }
 
   @Override
@@ -54,13 +73,38 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button4;
-      AppCompatButton button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
+      id = R.id.address;
+      EditText address = ViewBindings.findChildViewById(rootView, id);
+      if (address == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((FrameLayout) rootView, button4);
+      id = R.id.email;
+      EditText email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
+        break missingId;
+      }
+
+      id = R.id.name;
+      EditText name = ViewBindings.findChildViewById(rootView, id);
+      if (name == null) {
+        break missingId;
+      }
+
+      id = R.id.phoneNumber;
+      EditText phoneNumber = ViewBindings.findChildViewById(rootView, id);
+      if (phoneNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.saveBtn;
+      AppCompatButton saveBtn = ViewBindings.findChildViewById(rootView, id);
+      if (saveBtn == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((FrameLayout) rootView, address, email, name, phoneNumber,
+          saveBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -49,68 +49,65 @@ class SearchFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentSearchBinding.inflate(layoutInflater, container, false)
 
-        adapter = MenuAdapter(filterMenuFoodName, filterMenuItemPrice, filterMenuImage, requireContext())
-
-        binding.searchRecyclerView.layoutManager = LinearLayoutManager(requireContext())
-        binding.searchRecyclerView.adapter = adapter
-
-        //setup for search view
-        setUpSearchView()
-
-        //show all menu items
-        showAllMenu()
+//        adapter = MenuAdapter(filterMenuFoodName, filterMenuItemPrice, filterMenuImage, requireContext())
+//
+//        binding.searchRecyclerView.layoutManager = LinearLayoutManager(requireContext())
+//        binding.searchRecyclerView.adapter = adapter
+//
+//        //setup for search view
+//        setUpSearchView()
+//
+//        //show all menu items
+//        showAllMenu()
         return binding.root
     }
 
-    @SuppressLint("NotifyDataSetChanged")
-    private fun showAllMenu() {
-        filterMenuFoodName.clear()
-        filterMenuItemPrice.clear()
-        filterMenuImage.clear()
+//    @SuppressLint("NotifyDataSetChanged")
+//    private fun showAllMenu() {
+//        filterMenuFoodName.clear()
+//        filterMenuItemPrice.clear()
+//        filterMenuImage.clear()
+//
+//
+//        filterMenuFoodName.addAll(originalMenuFoodName)
+//        filterMenuItemPrice.addAll(originalMenuPrice)
+//        filterMenuImage.addAll(originalMenuFoodImages)
+//
+//        adapter.notifyDataSetChanged()
+//
+//    }
+//
+//    private fun setUpSearchView() {
+//
+//        binding.searchView.setOnQueryTextListener(object : android.widget.SearchView.OnQueryTextListener{
+//
+//            override fun onQueryTextSubmit(query: String): Boolean {
+//                filterMenuItems(query)
+//                return true
+//            }
+//
+//            override fun onQueryTextChange(newText: String): Boolean {
+//                filterMenuItems(newText)
+//                return true
+//            }
+//        } )
+//    }
+//
+//    @SuppressLint("NotifyDataSetChanged")
+//    private fun filterMenuItems(query: String) {
+//        filterMenuFoodName.clear()
+//        filterMenuItemPrice.clear()
+//        filterMenuImage.clear()
+//
+//        originalMenuFoodName.forEachIndexed { index, foodName ->
+//            if(foodName.contains(query, ignoreCase = true)){
+//                filterMenuFoodName.add(foodName)
+//                filterMenuItemPrice.add(originalMenuPrice[index])
+//                filterMenuImage.add(originalMenuFoodImages[index])
+//            }
+//
+//        }
+//        adapter.notifyDataSetChanged()
+//    }
 
-
-        filterMenuFoodName.addAll(originalMenuFoodName)
-        filterMenuItemPrice.addAll(originalMenuPrice)
-        filterMenuImage.addAll(originalMenuFoodImages)
-
-        adapter.notifyDataSetChanged()
-
-    }
-
-    private fun setUpSearchView() {
-
-        binding.searchView.setOnQueryTextListener(object : android.widget.SearchView.OnQueryTextListener{
-
-            override fun onQueryTextSubmit(query: String): Boolean {
-                filterMenuItems(query)
-                return true
-            }
-
-            override fun onQueryTextChange(newText: String): Boolean {
-                filterMenuItems(newText)
-                return true
-            }
-        } )
-    }
-
-    @SuppressLint("NotifyDataSetChanged")
-    private fun filterMenuItems(query: String) {
-        filterMenuFoodName.clear()
-        filterMenuItemPrice.clear()
-        filterMenuImage.clear()
-
-        originalMenuFoodName.forEachIndexed { index, foodName ->
-            if(foodName.contains(query, ignoreCase = true)){
-                filterMenuFoodName.add(foodName)
-                filterMenuItemPrice.add(originalMenuPrice[index])
-                filterMenuImage.add(originalMenuFoodImages[index])
-            }
-
-        }
-        adapter.notifyDataSetChanged()
-    }
-
-    companion object {
-
-    }
 }

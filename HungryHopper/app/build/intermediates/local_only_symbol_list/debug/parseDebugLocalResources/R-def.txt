@@ -55,11 +55,12 @@ font lato_heavy
 font lato_light
 font lato_regular
 font yeonsung_regular
+id addToCart
+id address
 id alreadyHaveAcc
+id backButton
 id backToCart
 id bottomNavigationView
-id button
-id button4
 id buttonBack
 id buyAgainBtn
 id buyAgainFood
@@ -92,7 +93,6 @@ id historyImage
 id historyPrice
 id historyRecyclerView
 id homeFragment
-id imageButton
 id imageView
 id imageView2
 id imageView3
@@ -109,6 +109,7 @@ id menuImage
 id menuPrice
 id menuRecyclerView
 id minusButton
+id name
 id navigation
 id next
 id notificationImageView
@@ -118,12 +119,15 @@ id notificationbell
 id orderStatus
 id password
 id payOutBtn
+id phoneNumber
 id plusButton
 id popularRecyclerView
 id proceed
 id profileFragment
 id quantity
+id recentBuyItem
 id recievedButton
+id saveBtn
 id searchFragment
 id searchRecyclerView
 id searchView
@@ -154,6 +158,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id totalAmount
 id userName
 id viewMenuHome
 layout activity_choose_location

@@ -14,6 +14,7 @@ import com.example.hungryhopper.ChooseLocationActivity
 import com.example.hungryhopper.MainActivity
 import com.example.hungryhopper.Model.UserModel
 import com.example.hungryhopper.R
+import com.example.hungryhopper.Utils.USER_NODE
 import com.example.hungryhopper.databinding.ActivitySignUpBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -133,6 +134,6 @@ class SignUpActivity : AppCompatActivity() {
 
         val user = UserModel(username, email, password)
         val userId = FirebaseAuth.getInstance().currentUser!!.uid
-        database.child("User").child(userId).setValue(user)
+        database.child(USER_NODE).child(userId).setValue(user)
     }
 }

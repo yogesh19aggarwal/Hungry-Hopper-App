@@ -4,6 +4,7 @@ package com.example.hungryhopper.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -22,24 +23,42 @@ public final class ActivityPayOutBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final EditText address;
+
+  @NonNull
   public final ImageButton backToCart;
 
   @NonNull
   public final FrameLayout main;
 
   @NonNull
+  public final EditText name;
+
+  @NonNull
   public final AppCompatButton payOutBtn;
+
+  @NonNull
+  public final EditText phoneNumber;
 
   @NonNull
   public final TextView textView23;
 
-  private ActivityPayOutBinding(@NonNull FrameLayout rootView, @NonNull ImageButton backToCart,
-      @NonNull FrameLayout main, @NonNull AppCompatButton payOutBtn, @NonNull TextView textView23) {
+  @NonNull
+  public final TextView totalAmount;
+
+  private ActivityPayOutBinding(@NonNull FrameLayout rootView, @NonNull EditText address,
+      @NonNull ImageButton backToCart, @NonNull FrameLayout main, @NonNull EditText name,
+      @NonNull AppCompatButton payOutBtn, @NonNull EditText phoneNumber,
+      @NonNull TextView textView23, @NonNull TextView totalAmount) {
     this.rootView = rootView;
+    this.address = address;
     this.backToCart = backToCart;
     this.main = main;
+    this.name = name;
     this.payOutBtn = payOutBtn;
+    this.phoneNumber = phoneNumber;
     this.textView23 = textView23;
+    this.totalAmount = totalAmount;
   }
 
   @Override
@@ -69,6 +88,12 @@ public final class ActivityPayOutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.address;
+      EditText address = ViewBindings.findChildViewById(rootView, id);
+      if (address == null) {
+        break missingId;
+      }
+
       id = R.id.backToCart;
       ImageButton backToCart = ViewBindings.findChildViewById(rootView, id);
       if (backToCart == null) {
@@ -77,9 +102,21 @@ public final class ActivityPayOutBinding implements ViewBinding {
 
       FrameLayout main = (FrameLayout) rootView;
 
+      id = R.id.name;
+      EditText name = ViewBindings.findChildViewById(rootView, id);
+      if (name == null) {
+        break missingId;
+      }
+
       id = R.id.payOutBtn;
       AppCompatButton payOutBtn = ViewBindings.findChildViewById(rootView, id);
       if (payOutBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.phoneNumber;
+      EditText phoneNumber = ViewBindings.findChildViewById(rootView, id);
+      if (phoneNumber == null) {
         break missingId;
       }
 
@@ -89,8 +126,14 @@ public final class ActivityPayOutBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPayOutBinding((FrameLayout) rootView, backToCart, main, payOutBtn,
-          textView23);
+      id = R.id.totalAmount;
+      TextView totalAmount = ViewBindings.findChildViewById(rootView, id);
+      if (totalAmount == null) {
+        break missingId;
+      }
+
+      return new ActivityPayOutBinding((FrameLayout) rootView, address, backToCart, main, name,
+          payOutBtn, phoneNumber, textView23, totalAmount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

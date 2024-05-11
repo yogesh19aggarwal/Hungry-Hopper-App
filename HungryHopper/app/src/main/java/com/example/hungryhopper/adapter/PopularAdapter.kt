@@ -8,11 +8,21 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.hungryhopper.DetailsActivity
 import com.example.hungryhopper.databinding.PopularItemListBinding
 
-class PopularAdapter(private val items: List<String>, private val image: List<Int>, private val price : List<String>, private val requireContext: Context) :
-    RecyclerView.Adapter<PopularAdapter.PopularViewHolder>(){
+class PopularAdapter(
+    private val items: List<String>,
+    private val image: List<Int>,
+    private val price: List<String>,
+    private val requireContext: Context
+) : RecyclerView.Adapter<PopularAdapter.PopularViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PopularViewHolder {
-        return PopularViewHolder(PopularItemListBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+        return PopularViewHolder(
+            PopularItemListBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        )
     }
 
     override fun getItemCount(): Int {
@@ -33,13 +43,12 @@ class PopularAdapter(private val items: List<String>, private val image: List<In
         }
     }
 
-    class PopularViewHolder (private val binding: PopularItemListBinding) : RecyclerView.ViewHolder(binding.root){
+    class PopularViewHolder(private val binding: PopularItemListBinding) :
+        RecyclerView.ViewHolder(binding.root) {
         fun bind(item: String, image: Int, price: String) {
             binding.menuFoodName.text = item
             binding.menuImage.setImageResource(image)
             binding.menuPrice.text = price
-
         }
-
     }
 }

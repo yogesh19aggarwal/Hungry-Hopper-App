@@ -3313,6 +3313,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addToCart
+id address
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3333,6 +3335,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backButton
 id backToCart
 id barrier
 id baseline
@@ -3351,8 +3354,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
-id button4
 id buttonBack
 id buttonPanel
 id buyAgainBtn
@@ -3510,7 +3511,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton
 id imageView
 id imageView2
 id imageView3
@@ -3612,6 +3612,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation
@@ -3673,6 +3674,7 @@ id pathRelative
 id payOutBtn
 id peekHeight
 id percent
+id phoneNumber
 id pin
 id plusButton
 id popularRecyclerView
@@ -3686,6 +3688,7 @@ id progress_horizontal
 id quantity
 id radio
 id ratio
+id recentBuyItem
 id recievedButton
 id rectangles
 id report_drawn
@@ -3697,6 +3700,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id saveBtn
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3828,6 +3832,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id totalAmount
 id touch_outside
 id transitionToEnd
 id transitionToStart

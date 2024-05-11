@@ -9,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.adminhungryhopper.Adapter.AllItemAdapter
 import com.example.adminhungryhopper.Models.AllMenu
+import com.example.adminhungryhopper.Utils.MENU_NODE
 import com.example.adminhungryhopper.databinding.ActivityAllItemBinding
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -62,7 +63,7 @@ class AllItemActivity : AppCompatActivity() {
 
     private fun retrieveMenuItem() {
         database = FirebaseDatabase.getInstance()
-        val foodRef: DatabaseReference = database.reference.child("Menu")
+        val foodRef: DatabaseReference = database.reference.child(MENU_NODE)
 
         foodRef.addListenerForSingleValueEvent(object : ValueEventListener{
 

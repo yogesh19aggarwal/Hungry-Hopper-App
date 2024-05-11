@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.adminhungryhopper.Models.AllMenu
+import com.example.adminhungryhopper.Utils.MENU_IMAGES
+import com.example.adminhungryhopper.Utils.MENU_NODE
 import com.example.adminhungryhopper.databinding.ActivityAddItemBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
@@ -76,7 +78,7 @@ class AddItemActivity : AppCompatActivity() {
 
     private fun uploadData() {
         // get a reference to menu
-        val menuRef: DatabaseReference = database.getReference("Menu")
+        val menuRef: DatabaseReference = database.getReference(MENU_NODE)
 
         // generate unique key fot the new menu
         val newItemKey = menuRef.push().key

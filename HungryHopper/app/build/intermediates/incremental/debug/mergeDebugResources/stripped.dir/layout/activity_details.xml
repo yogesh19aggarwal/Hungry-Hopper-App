@@ -8,7 +8,7 @@
     tools:context=".DetailsActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backButton"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginStart="8dp"
@@ -29,7 +29,7 @@
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView4"
@@ -103,7 +103,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/addToCart"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginStart="16dp"
