@@ -36,7 +36,21 @@ class ProfileFragment : Fragment() {
 
         binding = FragmentProfileBinding.inflate(layoutInflater, container, false)
 
+        binding.name.isEnabled = false
+        binding.email.isEnabled = false
+        binding.address.isEnabled = false
+        binding.phoneNumber.isEnabled = false
+
+        binding.clickToEdit.setOnClickListener {
+            binding.name.isEnabled = true
+            binding.email.isEnabled = true
+            binding.address.isEnabled = true
+            binding.phoneNumber.isEnabled = true
+
+        }
+
         setUserData()
+
         binding.saveBtn.setOnClickListener {
             val name = binding.name.text.toString()
             val email = binding.email.text.toString()

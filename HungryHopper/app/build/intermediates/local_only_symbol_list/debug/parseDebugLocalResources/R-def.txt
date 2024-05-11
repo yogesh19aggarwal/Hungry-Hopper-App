@@ -19,6 +19,7 @@ drawable burrgar
 drawable cart
 drawable cashondelivery
 drawable congrats
+drawable edit
 drawable edittextshape
 drawable facebook
 drawable google
@@ -75,6 +76,7 @@ id cartFragment
 id cartImage
 id cartItemPrice
 id cartRecyclerView
+id clickToEdit
 id deleteButton
 id descriptiontextView
 id detailFoodImage
@@ -83,6 +85,10 @@ id dontHaveAccount
 id email
 id facebookBtn
 id facebookSignIn
+id foodImage
+id foodName
+id foodPrice
+id foodQuantity
 id fragmentContainerView
 id goHomeBtn
 id googleBtn
@@ -127,6 +133,7 @@ id profileFragment
 id quantity
 id recentBuyItem
 id recievedButton
+id recyclerViewRecent
 id saveBtn
 id searchFragment
 id searchRecyclerView
@@ -149,7 +156,9 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
 id textView26
+id textView27
 id textView28
 id textView3
 id textView4
@@ -166,6 +175,7 @@ layout activity_details
 layout activity_login
 layout activity_main
 layout activity_pay_out
+layout activity_recent_order_items
 layout activity_sign_up
 layout activity_splash_screen
 layout activity_start
@@ -182,6 +192,7 @@ layout fragment_search
 layout menu_item
 layout notifcation_item
 layout popular_item_list
+layout recent_buy_item
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round

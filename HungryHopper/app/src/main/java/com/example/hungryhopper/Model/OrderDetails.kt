@@ -2,8 +2,9 @@ package com.example.hungryhopper.Model
 
 import android.os.Parcel
 import android.os.Parcelable
+import java.io.Serializable
 
-class OrderDetails(): Parcelable{
+class OrderDetails(): Serializable{
 
     var userId: String ?= null
     var userName: String ?= null
@@ -61,7 +62,7 @@ class OrderDetails(): Parcelable{
         this.paymentRecieved = b1
     }
 
-    override fun writeToParcel(parcel: Parcel, flags: Int) {
+    fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(userId)
         parcel.writeString(userName)
         parcel.writeString(address)
@@ -73,7 +74,7 @@ class OrderDetails(): Parcelable{
         parcel.writeValue(currentTime)
     }
 
-    override fun describeContents(): Int {
+    fun describeContents(): Int {
         return 0
     }
 

@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
@@ -24,6 +25,9 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final EditText address;
 
   @NonNull
+  public final TextView clickToEdit;
+
+  @NonNull
   public final EditText email;
 
   @NonNull
@@ -35,15 +39,21 @@ public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   public final AppCompatButton saveBtn;
 
+  @NonNull
+  public final TextView textView11;
+
   private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull EditText address,
-      @NonNull EditText email, @NonNull EditText name, @NonNull EditText phoneNumber,
-      @NonNull AppCompatButton saveBtn) {
+      @NonNull TextView clickToEdit, @NonNull EditText email, @NonNull EditText name,
+      @NonNull EditText phoneNumber, @NonNull AppCompatButton saveBtn,
+      @NonNull TextView textView11) {
     this.rootView = rootView;
     this.address = address;
+    this.clickToEdit = clickToEdit;
     this.email = email;
     this.name = name;
     this.phoneNumber = phoneNumber;
     this.saveBtn = saveBtn;
+    this.textView11 = textView11;
   }
 
   @Override
@@ -79,6 +89,12 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.clickToEdit;
+      TextView clickToEdit = ViewBindings.findChildViewById(rootView, id);
+      if (clickToEdit == null) {
+        break missingId;
+      }
+
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
@@ -103,8 +119,14 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((FrameLayout) rootView, address, email, name, phoneNumber,
-          saveBtn);
+      id = R.id.textView11;
+      TextView textView11 = ViewBindings.findChildViewById(rootView, id);
+      if (textView11 == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((FrameLayout) rootView, address, clickToEdit, email, name,
+          phoneNumber, saveBtn, textView11);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
