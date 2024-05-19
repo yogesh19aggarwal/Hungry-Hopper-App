@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.adminhungryhopper.MainActivity
 import com.example.adminhungryhopper.Models.UserModel
 import com.example.adminhungryhopper.R
-import com.example.adminhungryhopper.Utils.USER_NODE
+import com.example.adminhungryhopper.Utils.Admin_USER_NODE
 import com.example.adminhungryhopper.databinding.ActivitySignUpBinding
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
@@ -110,9 +110,9 @@ class SignUpActivity : AppCompatActivity() {
         nameOfRestaurant = binding.signUpRestaurant.text.toString()
         password = binding.signUpPass.text.toString().trim()
 
-        val user = UserModel(userName, nameOfRestaurant, email, password)
+        val user = UserModel(userName, email, password, nameOfRestaurant)
         val userId = FirebaseAuth.getInstance().currentUser!!.uid
 
-        database.child(USER_NODE).child(userId).setValue(user)
+        database.child(Admin_USER_NODE).child(userId).setValue(user)
     }
 }

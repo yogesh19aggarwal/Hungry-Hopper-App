@@ -29,9 +29,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
-  public final AppCompatButton facebookSignIn;
-
-  @NonNull
   public final AppCompatButton googleSignIn;
 
   @NonNull
@@ -66,15 +63,14 @@ public final class ActivitySignUpBinding implements ViewBinding {
 
   private ActivitySignUpBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView alreadyHaveAcc, @NonNull EditText email,
-      @NonNull AppCompatButton facebookSignIn, @NonNull AppCompatButton googleSignIn,
-      @NonNull ImageView imageView4, @NonNull ConstraintLayout main, @NonNull EditText password,
+      @NonNull AppCompatButton googleSignIn, @NonNull ImageView imageView4,
+      @NonNull ConstraintLayout main, @NonNull EditText password,
       @NonNull AppCompatButton signUpbtn, @NonNull TextView textView10,
       @NonNull TextView textView12, @NonNull TextView textView13, @NonNull TextView textView14,
       @NonNull TextView textView9, @NonNull EditText userName) {
     this.rootView = rootView;
     this.alreadyHaveAcc = alreadyHaveAcc;
     this.email = email;
-    this.facebookSignIn = facebookSignIn;
     this.googleSignIn = googleSignIn;
     this.imageView4 = imageView4;
     this.main = main;
@@ -124,12 +120,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
-        break missingId;
-      }
-
-      id = R.id.facebookSignIn;
-      AppCompatButton facebookSignIn = ViewBindings.findChildViewById(rootView, id);
-      if (facebookSignIn == null) {
         break missingId;
       }
 
@@ -196,8 +186,8 @@ public final class ActivitySignUpBinding implements ViewBinding {
       }
 
       return new ActivitySignUpBinding((ConstraintLayout) rootView, alreadyHaveAcc, email,
-          facebookSignIn, googleSignIn, imageView4, main, password, signUpbtn, textView10,
-          textView12, textView13, textView14, textView9, userName);
+          googleSignIn, imageView4, main, password, signUpbtn, textView10, textView12, textView13,
+          textView14, textView9, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -47,6 +47,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final CardView cardView7;
 
   @NonNull
+  public final TextView completedOrderCount;
+
+  @NonNull
   public final ConstraintLayout createUser;
 
   @NonNull
@@ -98,6 +101,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final CardView outForDeliveryBtn;
 
   @NonNull
+  public final TextView pendingOrderCount;
+
+  @NonNull
   public final TextView pendingOrders;
 
   @NonNull
@@ -115,19 +121,24 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
+  @NonNull
+  public final TextView wholeTimeEarning;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout addMenuMain, @NonNull ConstraintLayout allItemMenu,
       @NonNull CardView cardView, @NonNull CardView cardView2, @NonNull CardView cardView3,
       @NonNull CardView cardView4, @NonNull CardView cardView5, @NonNull CardView cardView7,
-      @NonNull ConstraintLayout createUser, @NonNull Guideline guideline,
-      @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull ImageView imageView10,
-      @NonNull ImageView imageView11, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView4, @NonNull ImageView imageView5, @NonNull ImageView imageView6,
-      @NonNull ImageView imageView7, @NonNull ImageView imageView8, @NonNull ImageView imageView9,
-      @NonNull ConstraintLayout logOutBtn, @NonNull ConstraintLayout main,
-      @NonNull CardView outForDeliveryBtn, @NonNull TextView pendingOrders,
+      @NonNull TextView completedOrderCount, @NonNull ConstraintLayout createUser,
+      @NonNull Guideline guideline, @NonNull Guideline guideline2, @NonNull Guideline guideline3,
+      @NonNull ImageView imageView10, @NonNull ImageView imageView11, @NonNull ImageView imageView2,
+      @NonNull ImageView imageView3, @NonNull ImageView imageView4, @NonNull ImageView imageView5,
+      @NonNull ImageView imageView6, @NonNull ImageView imageView7, @NonNull ImageView imageView8,
+      @NonNull ImageView imageView9, @NonNull ConstraintLayout logOutBtn,
+      @NonNull ConstraintLayout main, @NonNull CardView outForDeliveryBtn,
+      @NonNull TextView pendingOrderCount, @NonNull TextView pendingOrders,
       @NonNull ConstraintLayout profileBtn, @NonNull TextView texView19,
-      @NonNull TextView textView10, @NonNull TextView textView7, @NonNull TextView textView9) {
+      @NonNull TextView textView10, @NonNull TextView textView7, @NonNull TextView textView9,
+      @NonNull TextView wholeTimeEarning) {
     this.rootView = rootView;
     this.addMenuMain = addMenuMain;
     this.allItemMenu = allItemMenu;
@@ -137,6 +148,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.cardView4 = cardView4;
     this.cardView5 = cardView5;
     this.cardView7 = cardView7;
+    this.completedOrderCount = completedOrderCount;
     this.createUser = createUser;
     this.guideline = guideline;
     this.guideline2 = guideline2;
@@ -154,12 +166,14 @@ public final class ActivityMainBinding implements ViewBinding {
     this.logOutBtn = logOutBtn;
     this.main = main;
     this.outForDeliveryBtn = outForDeliveryBtn;
+    this.pendingOrderCount = pendingOrderCount;
     this.pendingOrders = pendingOrders;
     this.profileBtn = profileBtn;
     this.texView19 = texView19;
     this.textView10 = textView10;
     this.textView7 = textView7;
     this.textView9 = textView9;
+    this.wholeTimeEarning = wholeTimeEarning;
   }
 
   @Override
@@ -234,6 +248,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.cardView7;
       CardView cardView7 = ViewBindings.findChildViewById(rootView, id);
       if (cardView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.completedOrderCount;
+      TextView completedOrderCount = ViewBindings.findChildViewById(rootView, id);
+      if (completedOrderCount == null) {
         break missingId;
       }
 
@@ -335,6 +355,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.pendingOrderCount;
+      TextView pendingOrderCount = ViewBindings.findChildViewById(rootView, id);
+      if (pendingOrderCount == null) {
+        break missingId;
+      }
+
       id = R.id.pendingOrders;
       TextView pendingOrders = ViewBindings.findChildViewById(rootView, id);
       if (pendingOrders == null) {
@@ -371,12 +397,18 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.wholeTimeEarning;
+      TextView wholeTimeEarning = ViewBindings.findChildViewById(rootView, id);
+      if (wholeTimeEarning == null) {
+        break missingId;
+      }
+
       return new ActivityMainBinding((ConstraintLayout) rootView, addMenuMain, allItemMenu,
-          cardView, cardView2, cardView3, cardView4, cardView5, cardView7, createUser, guideline,
-          guideline2, guideline3, imageView10, imageView11, imageView2, imageView3, imageView4,
-          imageView5, imageView6, imageView7, imageView8, imageView9, logOutBtn, main,
-          outForDeliveryBtn, pendingOrders, profileBtn, texView19, textView10, textView7,
-          textView9);
+          cardView, cardView2, cardView3, cardView4, cardView5, cardView7, completedOrderCount,
+          createUser, guideline, guideline2, guideline3, imageView10, imageView11, imageView2,
+          imageView3, imageView4, imageView5, imageView6, imageView7, imageView8, imageView9,
+          logOutBtn, main, outForDeliveryBtn, pendingOrderCount, pendingOrders, profileBtn,
+          texView19, textView10, textView7, textView9, wholeTimeEarning);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

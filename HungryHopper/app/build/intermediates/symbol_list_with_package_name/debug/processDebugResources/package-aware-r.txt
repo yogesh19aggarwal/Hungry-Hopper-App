@@ -3461,8 +3461,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id facebookBtn
-id facebookSignIn
 id fade
 id fill
 id fill_horizontal
@@ -3546,7 +3544,6 @@ id line3
 id linear
 id linear_layout
 id listMode
-id listOfLocation
 id list_item
 id locale
 id loginbtn
@@ -3802,8 +3799,6 @@ id textView11
 id textView12
 id textView13
 id textView14
-id textView15
-id textView16
 id textView17
 id textView18
 id textView19
@@ -3994,7 +3989,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_choose_location
 layout activity_details
 layout activity_login
 layout activity_main

@@ -1,358 +1,370 @@
 [
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_menu4.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/menu4.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_search_box.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\search_box.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_black_arrow_left.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/black_arrow_left.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_arrow_left.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/arrow_left.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_bell.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\bell.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_cashondelivery.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/cashondelivery.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_menu4.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\menu4.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_plus.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/plus.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_cardgreen.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\cardgreen.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_lock.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/lock.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_sign_up.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\font_lato_heavy.ttf.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\font\\lato_heavy.ttf"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_burrgar.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/burrgar.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_history.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\history.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_google.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\google.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_sademoji.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/sademoji.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\font_lato_regular.ttf.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\font\\lato_regular.ttf"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_minus.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/minus.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_bag.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\bag.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_edittextshape.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/edittextshape.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_adduser.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\adduser.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_congrats.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/congrats.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_item_item.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\item_item.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/font_lato_light.ttf.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/font/lato_light.ttf"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_home.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/home.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_menu7.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/menu7.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_earning.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\earning.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_complete.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/complete.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_create_user.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_create_user.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_plus_circle.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/plus_circle.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_order_details.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_order_details.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_menu1.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\menu1.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_history.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/history.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_lock.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\lock.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_menu3.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/menu3.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_congrats.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\congrats.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_whitebutton.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/whitebutton.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_greenbutton.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\greenbutton.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/font_lato_regular.ttf.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/font/lato_regular.ttf"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_eye.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\eye.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_logo.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/logo.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_sademoji.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\sademoji.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_banner1.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/banner1.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_black_arrow_left.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\black_arrow_left.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_pending_order.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_pending_order.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_bag.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/bag.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_add_item.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_add_item.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_adduser.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/adduser.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_edittextshape.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\edittextshape.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_search_box.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/search_box.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_edit.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\edit.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/font_yeonsung_regular.ttf.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/font/yeonsung_regular.ttf"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_restraunt.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\restraunt.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_baseline_search_24.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/baseline_search_24.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_textview.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/textview.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_menu5.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\menu5.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_truck.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/truck.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_search.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\search.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_pending_order_item.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\pending_order_item.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/xml_backup_rules.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_order_details_item.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\order_details_item.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_rightgreen.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/rightgreen.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_banner1.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\banner1.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_cardgreen.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/cardgreen.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_logout.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/logout.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_main.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_menu2.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\menu2.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_menu6.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/menu6.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_banner2.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/banner2.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_user.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\user.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_profile_edit_text_shape.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/profile_edit_text_shape.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_cart.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\cart.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_all_item.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_all_item.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_complete.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\complete.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_trash.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/trash.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_trash.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\trash.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_greenbutton.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/greenbutton.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_user_round.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\user_round.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_delivery_item.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/delivery_item.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_menu6.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\menu6.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_facebook.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/facebook.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_search.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/search.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_out_for_delivery.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_out_for_delivery.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\font_yeonsung_regular.ttf.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\font\\yeonsung_regular.ttf"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_arrow_down.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/arrow_down.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_all_item.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_all_item.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_user_round.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/user_round.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_menu2.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/menu2.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\font_lato_bold.ttf.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\font\\lato_bold.ttf"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_mail.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/mail.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_burrgar.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\burrgar.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_eye.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/eye.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_cashondelivery.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\cashondelivery.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_admin_profile.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_admin_profile.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_plus.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\plus.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_earning.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/earning.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\font_lato_light.ttf.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\font\\lato_light.ttf"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_menu5.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/menu5.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_addcartshape.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\addcartshape.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_attention.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\attention.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_restraunt.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/restraunt.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_banner2.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\banner2.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_add_item.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_add_item.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_truck.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\truck.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_addcartshape.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/addcartshape.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_menu3.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\menu3.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_baseline_history_24.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/baseline_history_24.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_arrow_down.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\arrow_down.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_item_item.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/item_item.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_home.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\home.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_out_for_delivery.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_out_for_delivery.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_logout.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\logout.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_profile_edit_text_shape.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\profile_edit_text_shape.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_create_user.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_create_user.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_arrow_left.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\arrow_left.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_user.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/user.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_minus.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\minus.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/font_lato_bold.ttf.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/font/lato_bold.ttf"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_admin_profile.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_admin_profile.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_pending_order_item.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/pending_order_item.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_baseline_history_24.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\baseline_history_24.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_attention.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/attention.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_mail.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\mail.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_google.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/google.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_whitebutton.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\whitebutton.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/font_lato_heavy.ttf.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/font/lato_heavy.ttf"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_logo.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\logo.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_bell.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/bell.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_rightgreen.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\rightgreen.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_edit.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/edit.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_facebook.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\facebook.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_menu7.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\menu7.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_cart.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/cart.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_plus_circle.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\plus_circle.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_restaurant.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\restaurant.png"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_banner3.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/banner3.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_activity_pending_order.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\activity_pending_order.xml"
     },
     {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_menu1.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/menu1.png"
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_banner3.png.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\banner3.png"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\drawable_textview.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\drawable\\textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\layout_delivery_item.xml.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\layout\\delivery_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-debug-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.adminhungryhopper.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.adminhungryhopper.app-debug-37:/layout_activity_login.xml.flat",
         "source": "com.example.adminhungryhopper.app-main-39:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.adminhungryhopper.app-debug-37:/drawable_restaurant.png.flat",
-        "source": "com.example.adminhungryhopper.app-main-39:/drawable/restaurant.png"
     }
 ]

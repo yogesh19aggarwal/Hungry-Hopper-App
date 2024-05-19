@@ -29,9 +29,6 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
   public final ImageButton backBtn;
 
   @NonNull
-  public final AppCompatButton button4;
-
-  @NonNull
   public final TextView clickToEdit;
 
   @NonNull
@@ -53,20 +50,26 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
   public final EditText phoneNumber;
 
   @NonNull
+  public final EditText restaurantName;
+
+  @NonNull
+  public final AppCompatButton saveInfoButton;
+
+  @NonNull
   public final TextView texView19;
 
   @NonNull
   public final TextView textView11;
 
   private ActivityAdminProfileBinding(@NonNull ConstraintLayout rootView, @NonNull EditText address,
-      @NonNull ImageButton backBtn, @NonNull AppCompatButton button4, @NonNull TextView clickToEdit,
-      @NonNull TextView editProfile, @NonNull EditText email, @NonNull ConstraintLayout main,
-      @NonNull EditText name, @NonNull EditText password, @NonNull EditText phoneNumber,
-      @NonNull TextView texView19, @NonNull TextView textView11) {
+      @NonNull ImageButton backBtn, @NonNull TextView clickToEdit, @NonNull TextView editProfile,
+      @NonNull EditText email, @NonNull ConstraintLayout main, @NonNull EditText name,
+      @NonNull EditText password, @NonNull EditText phoneNumber, @NonNull EditText restaurantName,
+      @NonNull AppCompatButton saveInfoButton, @NonNull TextView texView19,
+      @NonNull TextView textView11) {
     this.rootView = rootView;
     this.address = address;
     this.backBtn = backBtn;
-    this.button4 = button4;
     this.clickToEdit = clickToEdit;
     this.editProfile = editProfile;
     this.email = email;
@@ -74,6 +77,8 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
     this.name = name;
     this.password = password;
     this.phoneNumber = phoneNumber;
+    this.restaurantName = restaurantName;
+    this.saveInfoButton = saveInfoButton;
     this.texView19 = texView19;
     this.textView11 = textView11;
   }
@@ -117,12 +122,6 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button4;
-      AppCompatButton button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
-        break missingId;
-      }
-
       id = R.id.clickToEdit;
       TextView clickToEdit = ViewBindings.findChildViewById(rootView, id);
       if (clickToEdit == null) {
@@ -161,6 +160,18 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.restaurantName;
+      EditText restaurantName = ViewBindings.findChildViewById(rootView, id);
+      if (restaurantName == null) {
+        break missingId;
+      }
+
+      id = R.id.saveInfoButton;
+      AppCompatButton saveInfoButton = ViewBindings.findChildViewById(rootView, id);
+      if (saveInfoButton == null) {
+        break missingId;
+      }
+
       id = R.id.texView19;
       TextView texView19 = ViewBindings.findChildViewById(rootView, id);
       if (texView19 == null) {
@@ -173,9 +184,9 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAdminProfileBinding((ConstraintLayout) rootView, address, backBtn, button4,
-          clickToEdit, editProfile, email, main, name, password, phoneNumber, texView19,
-          textView11);
+      return new ActivityAdminProfileBinding((ConstraintLayout) rootView, address, backBtn,
+          clickToEdit, editProfile, email, main, name, password, phoneNumber, restaurantName,
+          saveInfoButton, texView19, textView11);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.adminhungryhopper.databinding.DeliveryItemBinding
 
-class DeliveryAdapter(private var customerList: ArrayList<String>, private var moneyStaus: ArrayList<String>): RecyclerView.Adapter<DeliveryAdapter.DeliveryViewHolder>() {
+class DeliveryAdapter(private var customerList: MutableList<String>, private var moneyStaus: MutableList<Boolean>): RecyclerView.Adapter<DeliveryAdapter.DeliveryViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DeliveryViewHolder {
         var binding = DeliveryItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -26,10 +26,14 @@ class DeliveryAdapter(private var customerList: ArrayList<String>, private var m
         fun bind(position: Int) {
             binding.apply {
                 customerName.text = customerList[position]
-                payment.text = moneyStaus[position]
+                if(moneyStaus[position] == true){
+                    payment.text = "Recieved"
+                }else{
+                    payment.text = "Not Recieved"
+                }
 
                 val colorMap = mapOf(
-                    "Recieved" to Color.GREEN, "Not Recieved" to Color.RED, "Pending" to Color.GRAY
+                    true to Color.GREEN, false to Color.RED
                 )
 
                 payment.setTextColor(colorMap[moneyStaus[position]]?:Color.BLACK)

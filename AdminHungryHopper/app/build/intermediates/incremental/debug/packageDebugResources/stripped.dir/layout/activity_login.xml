@@ -120,34 +120,17 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/googleBtn"
-        android:textAllCaps="false"
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/whitebutton"
         android:drawableStart="@drawable/google"
+        android:outlineSpotShadowColor="@color/textColor"
+        android:paddingLeft="15dp"
         android:text="Google"
-        android:outlineSpotShadowColor="@color/textColor"
-        android:background="@drawable/whitebutton"
-        android:paddingLeft="15dp"
-        app:layout_constraintEnd_toStartOf="@+id/facebookBtn"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/facebookBtn"
         android:textAllCaps="false"
-        android:layout_width="152dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="16dp"
-        android:outlineSpotShadowColor="@color/textColor"
-        android:text="Facebook"
-        android:drawableStart="@drawable/facebook"
-        android:background="@drawable/whitebutton"
-        android:paddingLeft="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/googleBtn"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <androidx.appcompat.widget.AppCompatButton

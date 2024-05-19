@@ -2,6 +2,7 @@ package com.example.adminhungryhopper
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -55,7 +56,6 @@ class AllItemActivity : AppCompatActivity() {
 //        )
 
 
-
         binding.backBtn.setOnClickListener {
             finish()
         }
@@ -88,8 +88,28 @@ class AllItemActivity : AppCompatActivity() {
     }
 
     private fun setAdapter() {
-        val adapter = AllItemAdapter(this, menuItems, databaseReference)
+
+        val adapter = AllItemAdapter(this, menuItems, databaseReference){
+            position->
+            deleteMenuItem(position)
+        }
         binding.menuRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.menuRecyclerView.adapter = adapter
+    }
+
+    private fun deleteMenuItem(position: Int) {
+        val menuItemToDelete = menuItems[position]
+        val menuItemKey = menuItemToDelete.key
+        val foodRef = database.reference.child(MENU_NODE).child(menuItemKey!!)
+        foodRef.removeValue().addOnCompleteListener {
+            task->
+
+            if(task.isSuccessful){
+                menuItems.removeAt(position)
+                binding.menuRecyclerView.adapter?.notifyItemRemoved(position)
+            } else{
+                Toast.makeText(this, "Item Not Deleted", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 }

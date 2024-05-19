@@ -1,0 +1,3 @@
+com.example.adminhungryhopper.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

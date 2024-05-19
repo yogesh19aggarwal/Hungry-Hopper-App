@@ -24,7 +24,8 @@ class CartAdapter(
     private val cartImages: MutableList<String>,
     private val cartQuantity: MutableList<Int>,
     private val cartIngredients: MutableList<String>,
-    private val context: Context
+    private val context: Context,
+    private val onDeleteClickListener: (position: Int) -> Unit
 ) : RecyclerView.Adapter<CartAdapter.CartViewHolder>() {
 
     private val auth = FirebaseAuth.getInstance()
@@ -82,10 +83,7 @@ class CartAdapter(
                     increaseQuantity(position)
                 }
                 deleteButton.setOnClickListener {
-                    val itemPosition = adapterPosition
-                    if (itemPosition != RecyclerView.NO_POSITION) {
-                        deleteItem(position)
-                    }
+                    deleteItem(position)
                 }
             }
         }
@@ -120,23 +118,21 @@ class CartAdapter(
 
     private fun removeItem(position: Int, uniqueKey: String) {
 
-        if (uniqueKey != null) {
-            cartItemsReference.child(uniqueKey).removeValue().addOnSuccessListener {
-                cartItems.removeAt(position)
-                cartImages.removeAt(position)
-                cartDescriptions.removeAt(position)
-                cartQuantity.removeAt(position)
-                cartItemsPrice.removeAt(position)
-                cartIngredients.removeAt(position)
+        cartItemsReference.child(uniqueKey).removeValue().addOnSuccessListener {
+            cartItems.removeAt(position)
+            cartImages.removeAt(position)
+            cartDescriptions.removeAt(position)
+            cartQuantity.removeAt(position)
+            cartItemsPrice.removeAt(position)
+            cartIngredients.removeAt(position)
 
-                itemQuantities =
-                    itemQuantities.filterIndexed { index, i -> index != position }.toIntArray()
-                notifyItemRemoved(position)
-                notifyItemRangeChanged(position, cartItems.size)
-                Toast.makeText(context, " Item Deleted", Toast.LENGTH_SHORT).show()
-            }.addOnFailureListener {
-                Toast.makeText(context, "Failed to Delete", Toast.LENGTH_SHORT).show()
-            }
+            itemQuantities =
+                itemQuantities.filterIndexed { index, i -> index != position }.toIntArray()
+            notifyItemRemoved(position)
+            notifyItemRangeChanged(0, cartItems.size)
+            Toast.makeText(context, " Item Deleted", Toast.LENGTH_SHORT).show()
+        }.addOnFailureListener {
+            Toast.makeText(context, "Failed to Delete", Toast.LENGTH_SHORT).show()
         }
     }
 

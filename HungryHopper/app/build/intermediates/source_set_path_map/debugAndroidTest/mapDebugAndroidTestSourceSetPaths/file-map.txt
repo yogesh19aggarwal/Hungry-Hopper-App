@@ -1,6 +1,6 @@
-com.example.hungryhopper.test.app-core-1.5.0-0 C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-3\9f6cb65a4653b29d0d30f3ec07cb561c\transformed\core-1.5.0\res
-com.example.hungryhopper.test.app-annotation-experimental-1.3.0-1 C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-3\e05521bfaff8d20919e9ca856f5bdf17\transformed\annotation-experimental-1.3.0\res
-com.example.hungryhopper.test.app-androidTest-2 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\generated\res\resValues\androidTest\debug
-com.example.hungryhopper.test.app-mergeDebugAndroidTestResources-3 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.hungryhopper.test.app-mergeDebugAndroidTestResources-4 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.hungryhopper.test.app-debugAndroidTest-5 C:\Users\Yogesh Aggarwal\Projects\HungryHopper\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.hungryhopper.test.app-annotation-experimental-1.3.0-0 C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-4\4c244b5c0ed9d631236bdd827279646c\transformed\annotation-experimental-1.3.0\res
+com.example.hungryhopper.test.app-core-1.5.0-1 C:\Users\Yogesh Aggarwal\.gradle\caches\transforms-4\a97e071636dc10083489106a5f6f9be4\transformed\core-1.5.0\res
+com.example.hungryhopper.test.app-androidTest-2 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\generated\res\resValues\androidTest\debug
+com.example.hungryhopper.test.app-mergeDebugAndroidTestResources-3 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.hungryhopper.test.app-mergeDebugAndroidTestResources-4 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.hungryhopper.test.app-debugAndroidTest-5 C:\Users\Yogesh Aggarwal\Projects\hungry hopper\HungryHopper\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

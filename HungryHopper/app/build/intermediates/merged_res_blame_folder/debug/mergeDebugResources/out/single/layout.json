@@ -8,10 +8,6 @@
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-main-56:\\layout\\fragment_menu_bottom_sheet.xml"
     },
     {
-        "merged": "com.example.hungryhopper.app-mergeDebugResources-53:/layout/fragment_profile.xml",
-        "source": "com.example.hungryhopper.app-main-56:/layout/fragment_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-mergeDebugResources-53:\\layout\\activity_choose_location.xml",
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-main-56:\\layout\\activity_choose_location.xml"
     },
@@ -28,12 +24,20 @@
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-main-56:\\layout\\fragment_search.xml"
     },
     {
+        "merged": "com.example.hungryhopper.app-mergeDebugResources-53:/layout/activity_login.xml",
+        "source": "com.example.hungryhopper.app-main-56:/layout/activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-mergeDebugResources-53:\\layout\\popular_item_list.xml",
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-main-56:\\layout\\popular_item_list.xml"
     },
     {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-mergeDebugResources-53:\\layout\\fragment_notification_bottom.xml",
         "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-main-56:\\layout\\fragment_notification_bottom.xml"
+    },
+    {
+        "merged": "com.example.hungryhopper.app-mergeDebugResources-53:/layout/activity_sign_up.xml",
+        "source": "com.example.hungryhopper.app-main-56:/layout/activity_sign_up.xml"
     },
     {
         "merged": "C:\\Users\\Yogesh Aggarwal\\.gradle\\daemon\\8.6\\com.example.hungryhopper.app-mergeDebugResources-53:\\layout\\fragment_history.xml",

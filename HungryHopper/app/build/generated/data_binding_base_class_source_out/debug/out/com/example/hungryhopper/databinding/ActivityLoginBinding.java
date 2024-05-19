@@ -29,9 +29,6 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
-  public final AppCompatButton facebookBtn;
-
-  @NonNull
   public final AppCompatButton googleBtn;
 
   @NonNull
@@ -66,15 +63,13 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView dontHaveAccount, @NonNull EditText email,
-      @NonNull AppCompatButton facebookBtn, @NonNull AppCompatButton googleBtn,
-      @NonNull ImageView imageView3, @NonNull AppCompatButton loginbtn,
-      @NonNull ConstraintLayout main, @NonNull EditText password, @NonNull TextView textView10,
-      @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull AppCompatButton googleBtn, @NonNull ImageView imageView3,
+      @NonNull AppCompatButton loginbtn, @NonNull ConstraintLayout main, @NonNull EditText password,
+      @NonNull TextView textView10, @NonNull TextView textView5, @NonNull TextView textView6,
+      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.dontHaveAccount = dontHaveAccount;
     this.email = email;
-    this.facebookBtn = facebookBtn;
     this.googleBtn = googleBtn;
     this.imageView3 = imageView3;
     this.loginbtn = loginbtn;
@@ -124,12 +119,6 @@ public final class ActivityLoginBinding implements ViewBinding {
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
-        break missingId;
-      }
-
-      id = R.id.facebookBtn;
-      AppCompatButton facebookBtn = ViewBindings.findChildViewById(rootView, id);
-      if (facebookBtn == null) {
         break missingId;
       }
 
@@ -196,8 +185,8 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, dontHaveAccount, email,
-          facebookBtn, googleBtn, imageView3, loginbtn, main, password, textView10, textView5,
-          textView6, textView7, textView8, textView9);
+          googleBtn, imageView3, loginbtn, main, password, textView10, textView5, textView6,
+          textView7, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

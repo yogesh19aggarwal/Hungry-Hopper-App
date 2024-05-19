@@ -4,7 +4,7 @@
             "outputFile": "com.example.adminhungryhopper.app-mergeDebugResources-35:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\0f9fd69d69b6317dde1dae8184b33c91\\transformed\\play-services-auth-21.1.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\c4b33b015b192d05213cbff4162d964f\\transformed\\play-services-auth-21.1.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-3\\ccd05e625ba0a210117ba35e97a964b3\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\a15c54764cae5c1773b0775d2f815be3\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

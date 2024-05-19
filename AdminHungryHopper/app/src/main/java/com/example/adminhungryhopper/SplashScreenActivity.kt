@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.adminhungryhopper.Auth.LoginActivity
+import com.example.adminhungryhopper.Auth.SignUpActivity
 
 class SplashScreenActivity : AppCompatActivity() {
 

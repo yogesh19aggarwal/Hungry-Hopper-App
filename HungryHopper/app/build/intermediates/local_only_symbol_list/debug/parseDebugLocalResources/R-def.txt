@@ -83,8 +83,6 @@ id detailFoodImage
 id detailFoodName
 id dontHaveAccount
 id email
-id facebookBtn
-id facebookSignIn
 id foodImage
 id foodName
 id foodPrice
@@ -106,7 +104,6 @@ id imageView4
 id imageView6
 id image_slider
 id ingredientsTextView
-id listOfLocation
 id loginbtn
 id main
 id menuAddCart
@@ -145,8 +142,6 @@ id textView11
 id textView12
 id textView13
 id textView14
-id textView15
-id textView16
 id textView17
 id textView18
 id textView19
@@ -170,7 +165,6 @@ id textView9
 id totalAmount
 id userName
 id viewMenuHome
-layout activity_choose_location
 layout activity_details
 layout activity_login
 layout activity_main

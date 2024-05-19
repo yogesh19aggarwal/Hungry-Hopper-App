@@ -4,13 +4,11 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.adminhungryhopper.Models.AllMenu
-import com.example.adminhungryhopper.Utils.MENU_IMAGES
 import com.example.adminhungryhopper.Utils.MENU_NODE
 import com.example.adminhungryhopper.databinding.ActivityAddItemBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -95,8 +93,9 @@ class AddItemActivity : AppCompatActivity() {
                             downloadUrl->
 
                             val newItem = AllMenu(
+                                newItemKey,
                                 foodName = foodName,
-                                foodPrice = foodPrice,
+                                foodPrice = foodPrice+"₹",
                                 foodDescription = foodDescription,
                                 foodIngredient = foodIngredients,
                                 foodImage = downloadUrl.toString()

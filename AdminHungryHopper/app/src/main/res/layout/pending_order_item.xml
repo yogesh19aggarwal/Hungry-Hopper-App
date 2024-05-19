@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:fontFamily="@font/yeonsung_regular"
-                android:text="Quantity"
+                android:text="Total Pay"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="@+id/cardView"

@@ -121,8 +121,6 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    //check user already
-
     override fun onStart() {
         super.onStart()
 
@@ -133,4 +131,5 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
     }
+
 }

@@ -10,7 +10,6 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.hungryhopper.ChooseLocationActivity
 import com.example.hungryhopper.MainActivity
 import com.example.hungryhopper.Model.UserModel
 import com.example.hungryhopper.R
@@ -22,10 +21,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import com.google.firebase.auth.auth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
@@ -91,8 +88,7 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     private val launcher =
-        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
-            result ->
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
             if (result.resultCode == Activity.RESULT_OK) {
                 val task = GoogleSignIn.getSignedInAccountFromIntent(result.data)
                 if (task.isSuccessful) {
@@ -118,7 +114,7 @@ class SignUpActivity : AppCompatActivity() {
             if (task.isSuccessful) {
                 Toast.makeText(this, "Account created Successfully", Toast.LENGTH_SHORT).show()
                 saveUserData()
-                val intent = Intent(this, ChooseLocationActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             } else {
                 Toast.makeText(this, "Account creation failed", Toast.LENGTH_SHORT).show()

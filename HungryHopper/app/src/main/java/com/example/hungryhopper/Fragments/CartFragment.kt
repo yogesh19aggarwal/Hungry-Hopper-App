@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.hungryhopper.Model.CartItems
 import com.example.hungryhopper.PayOutActivity
 import com.example.hungryhopper.Utils.CARTITEM_NODE
+import com.example.hungryhopper.Utils.MENU_NODE
 import com.example.hungryhopper.Utils.USER_NODE
 import com.example.hungryhopper.adapter.CartAdapter
 import com.example.hungryhopper.databinding.FragmentCartBinding
@@ -182,10 +183,50 @@ class CartFragment : Fragment() {
             quantity,
             foodIngredients,
             requireContext()
-        )
+        ){
+            position->
+            deleteCartItem(position)
+        }
         binding.cartRecyclerView.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         binding.cartRecyclerView.adapter = cartAdapter
+    }
+
+    private fun deleteCartItem(position: Int) {
+
+        var foodRef = database.reference.child(USER_NODE).child(MENU_NODE)
+
+        foodRef.addListenerForSingleValueEvent(object : ValueEventListener{
+            override fun onDataChange(snapshot: DataSnapshot) {
+
+                for(foodSnapshot in snapshot.children){
+                    var itemDelKey = foodSnapshot.key
+                    foodRef = database.reference.child(USER_NODE).child(MENU_NODE).child(itemDelKey!!)
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+        })
+
+        foodRef.removeValue().addOnCompleteListener {
+            task->
+
+            if(task.isSuccessful){
+                foodName.removeAt(position)
+                foodPrice.removeAt(position)
+                foodDescription.removeAt(position)
+                foodImageUri.removeAt(position)
+                quantity.removeAt(position)
+                foodIngredients.removeAt(position)
+
+                binding.cartRecyclerView.adapter?.notifyItemRemoved(position)
+            } else{
+                Toast.makeText(requireContext(), "Item Not Deleted", Toast.LENGTH_SHORT).show()
+            }
+        }
+
     }
 
 }

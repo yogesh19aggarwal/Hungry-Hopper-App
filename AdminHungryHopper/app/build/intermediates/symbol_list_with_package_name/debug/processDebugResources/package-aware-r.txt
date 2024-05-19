@@ -3284,6 +3284,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id backBtn
+id backToCart
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3300,7 +3301,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button4
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3332,6 +3332,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id completedOrderCount
 id compress
 id confirm_button
 id constraint
@@ -3404,7 +3405,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id facebookBtn
 id fade
 id fill
 id fill_horizontal
@@ -3418,8 +3418,11 @@ id fitXY
 id fixed
 id flip
 id floating
+id foodImage
 id foodImageView
+id foodName
 id foodNameTextView
+id foodPrice
 id forever
 id fragment_container_view_tag
 id frost
@@ -3591,6 +3594,7 @@ id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
 id orderAcceptButton
+id orderDetailRecyclerView
 id orderFoodImage
 id orderStatus
 id outForDeliveryBtn
@@ -3609,6 +3613,7 @@ id path
 id pathRelative
 id payment
 id peekHeight
+id pendingOrderCount
 id pendingOrders
 id pendingRecyclerView
 id percent
@@ -3627,6 +3632,7 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id restaurantName
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3634,6 +3640,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saveInfoButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3735,6 +3742,7 @@ id textView13
 id textView14
 id textView16
 id textView2
+id textView23
 id textView3
 id textView4
 id textView5
@@ -3757,6 +3765,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id totalPrice
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3781,6 +3790,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
+id wholeTimeEarning
 id wide
 id withText
 id with_icon
@@ -3911,6 +3921,7 @@ layout activity_all_item
 layout activity_create_user
 layout activity_login
 layout activity_main
+layout activity_order_details
 layout activity_out_for_delivery
 layout activity_pending_order
 layout activity_sign_up
@@ -3994,6 +4005,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout order_details_item
 layout pending_order_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
