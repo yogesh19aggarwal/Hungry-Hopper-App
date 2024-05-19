@@ -76,6 +76,7 @@ id cartFragment
 id cartImage
 id cartItemPrice
 id cartRecyclerView
+id cashOnDelivery
 id clickToEdit
 id deleteButton
 id descriptiontextView
@@ -155,14 +156,13 @@ id textView25
 id textView26
 id textView27
 id textView28
-id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8
 id textView9
 id totalAmount
+id upiBtn
 id userName
 id viewMenuHome
 layout activity_details

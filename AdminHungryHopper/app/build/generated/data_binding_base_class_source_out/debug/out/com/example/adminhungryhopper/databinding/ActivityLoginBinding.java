@@ -48,9 +48,6 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final ConstraintLayout main;
 
   @NonNull
-  public final TextView texView9;
-
-  @NonNull
   public final TextInputLayout textInputLayoutEmail;
 
   @NonNull
@@ -69,7 +66,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       @NonNull TextView dontHaveAccount, @NonNull AppCompatButton googleBtn,
       @NonNull ImageView imageView, @NonNull TextInputEditText loginEmail,
       @NonNull TextView loginOr, @NonNull TextInputEditText loginPass,
-      @NonNull AppCompatButton loginbtn, @NonNull ConstraintLayout main, @NonNull TextView texView9,
+      @NonNull AppCompatButton loginbtn, @NonNull ConstraintLayout main,
       @NonNull TextInputLayout textInputLayoutEmail, @NonNull TextInputLayout textInputLayoutPass,
       @NonNull TextView textView10, @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
@@ -81,7 +78,6 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.loginPass = loginPass;
     this.loginbtn = loginbtn;
     this.main = main;
-    this.texView9 = texView9;
     this.textInputLayoutEmail = textInputLayoutEmail;
     this.textInputLayoutPass = textInputLayoutPass;
     this.textView10 = textView10;
@@ -160,12 +156,6 @@ public final class ActivityLoginBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      id = R.id.texView9;
-      TextView texView9 = ViewBindings.findChildViewById(rootView, id);
-      if (texView9 == null) {
-        break missingId;
-      }
-
       id = R.id.textInputLayoutEmail;
       TextInputLayout textInputLayoutEmail = ViewBindings.findChildViewById(rootView, id);
       if (textInputLayoutEmail == null) {
@@ -197,7 +187,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, dontHaveAccount, googleBtn,
-          imageView, loginEmail, loginOr, loginPass, loginbtn, main, texView9, textInputLayoutEmail,
+          imageView, loginEmail, loginOr, loginPass, loginbtn, main, textInputLayoutEmail,
           textInputLayoutPass, textView10, textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);

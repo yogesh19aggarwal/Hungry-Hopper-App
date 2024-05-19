@@ -61,8 +61,6 @@ class CartFragment : Fragment() {
 
         retrieveCartItems()
 
-
-
         binding.proceed.setOnClickListener {
             getOrderItemsDetail()
         }
@@ -183,8 +181,7 @@ class CartFragment : Fragment() {
             quantity,
             foodIngredients,
             requireContext()
-        ){
-            position->
+        ) { position ->
             deleteCartItem(position)
         }
         binding.cartRecyclerView.layoutManager =
@@ -196,12 +193,13 @@ class CartFragment : Fragment() {
 
         var foodRef = database.reference.child(USER_NODE).child(MENU_NODE)
 
-        foodRef.addListenerForSingleValueEvent(object : ValueEventListener{
+        foodRef.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
 
-                for(foodSnapshot in snapshot.children){
+                for (foodSnapshot in snapshot.children) {
                     var itemDelKey = foodSnapshot.key
-                    foodRef = database.reference.child(USER_NODE).child(MENU_NODE).child(itemDelKey!!)
+                    foodRef =
+                        database.reference.child(USER_NODE).child(MENU_NODE).child(itemDelKey!!)
                 }
             }
 
@@ -210,10 +208,9 @@ class CartFragment : Fragment() {
             }
         })
 
-        foodRef.removeValue().addOnCompleteListener {
-            task->
+        foodRef.removeValue().addOnCompleteListener { task ->
 
-            if(task.isSuccessful){
+            if (task.isSuccessful) {
                 foodName.removeAt(position)
                 foodPrice.removeAt(position)
                 foodDescription.removeAt(position)
@@ -222,7 +219,7 @@ class CartFragment : Fragment() {
                 foodIngredients.removeAt(position)
 
                 binding.cartRecyclerView.adapter?.notifyItemRemoved(position)
-            } else{
+            } else {
                 Toast.makeText(requireContext(), "Item Not Deleted", Toast.LENGTH_SHORT).show()
             }
         }

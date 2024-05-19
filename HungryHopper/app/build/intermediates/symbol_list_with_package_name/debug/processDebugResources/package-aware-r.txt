@@ -47,6 +47,8 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim slide_down
+anim slide_up
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1385,6 +1387,7 @@ attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+bool ph_enableToolbarShadow
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -1437,6 +1440,22 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorBackgroundPrimary
+color colorBrandPrimary
+color colorButtonBrandFillDisabled
+color colorButtonBrandText
+color colorButtonBrandTextDisabled
+color colorButtonBrandTextFocused
+color colorButtonBrandTextPressed
+color colorFillDisabled
+color colorFillHint
+color colorFillPrimary
+color colorFillSecondary
+color colorText
+color colorTextDisabled
+color colorTextPrimary
+color colorTextSecondary
+color color_green_ic_radio_button_checked
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1499,6 +1518,10 @@ color grey_font
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color jsonViewer_textColorBool
+color jsonViewer_textColorNull
+color jsonViewer_textColorNumber
+color jsonViewer_textColorString
 color light_font
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -2153,6 +2176,13 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color ph_colorAccent
+color ph_colorPrimary
+color ph_colorPrimaryDark
+color ph_textColor
+color ph_textColorAccent
+color phone_pe_gradient_end_color
+color phone_pe_gradient_start_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2276,6 +2306,13 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen def_drawer_elevation
+dimen default_corner_radius
+dimen default_height_min
+dimen default_radius_pic_chip_medium
+dimen default_space
+dimen default_space_Big
+dimen default_space_medium_small
+dimen default_space_small
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -2324,6 +2361,8 @@ dimen design_tab_scrollable_min_width
 dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
+dimen dimen_text_button
+dimen dimen_text_subheader
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
@@ -2970,6 +3009,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen progressbar_radius_max
 dimen sliding_pane_detail_pane_width
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -3063,6 +3103,8 @@ drawable arrow_down
 drawable arrow_left
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_button_brand_round_corner
+drawable background_top_border
 drawable banner1
 drawable banner2
 drawable banner3
@@ -3078,6 +3120,8 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable burrgar
+drawable button_brand_text_color
+drawable button_brand_text_only_text_color
 drawable cart
 drawable cashondelivery
 drawable common_full_open_on_phone
@@ -3129,6 +3173,8 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_error_outline
+drawable ic_error_outline_black
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3139,6 +3185,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_phonepe_icon
 drawable ic_search_black_24
 drawable lock
 drawable logo
@@ -3230,12 +3277,14 @@ drawable rightgreen
 drawable sademoji
 drawable search
 drawable search_box
+drawable solid_circle
 drawable test_level_drawable
 drawable textview
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable trash
 drawable truck
+drawable upi_apps_list_item_stroked_item
 drawable user
 drawable whitebutton
 font lato_bold
@@ -3329,6 +3378,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id app_icon
+id app_name
 id arc
 id asConfigured
 id async
@@ -3374,6 +3425,7 @@ id cartFragment
 id cartImage
 id cartItemPrice
 id cartRecyclerView
+id cashOnDelivery
 id center
 id centerCrop
 id centerInside
@@ -3386,6 +3438,10 @@ id checkbox
 id checked
 id chronometer
 id circle_center
+id circle_four
+id circle_one
+id circle_three
+id circle_two
 id clear_text
 id clickToEdit
 id clip_horizontal
@@ -3458,6 +3514,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id error_container
+id error_message
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3492,6 +3550,7 @@ id googleBtn
 id googleSignIn
 id graph
 id graph_wrap
+id gridview
 id group_divider
 id grouping
 id groups
@@ -3545,6 +3604,7 @@ id linear
 id linear_layout
 id listMode
 id list_item
+id loading_animation
 id locale
 id loginbtn
 id ltr
@@ -3675,9 +3735,11 @@ id password_toggle
 id path
 id pathRelative
 id payOutBtn
+id pay_via_text_view
 id peekHeight
 id percent
 id phoneNumber
+id phonepe_webview
 id pin
 id plusButton
 id popularRecyclerView
@@ -3686,6 +3748,7 @@ id postLayout
 id pressed
 id proceed
 id profileFragment
+id progressBar
 id progress_circular
 id progress_horizontal
 id quantity
@@ -3812,9 +3875,7 @@ id textView25
 id textView26
 id textView27
 id textView28
-id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8
@@ -3850,6 +3911,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id upiBtn
 id useLogo
 id userName
 id vertical_only
@@ -3993,6 +4055,7 @@ layout activity_details
 layout activity_login
 layout activity_main
 layout activity_pay_out
+layout activity_phonepe_web
 layout activity_recent_order_items
 layout activity_sign_up
 layout activity_splash_screen
@@ -4089,17 +4152,22 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout pager_row
 layout popular_item_list
+layout progress_bar
 layout recent_buy_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout upi_apps_dialog_layout
+layout upi_apps_dialog_unit_item
+layout v3_debit_response_error
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation navigation
 plurals mtrl_badge_content_description
 raw firebase_common_keep
+raw loader
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4130,6 +4198,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string back_button_warning
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -4143,6 +4212,8 @@ string call_notification_hang_up_action
 string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
+string cancel
+string cancel_confirmation
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -4170,6 +4241,7 @@ string default_web_client_id
 string dest_title
 string error_a11y_label
 string error_icon_content_description
+string error_message
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -4178,6 +4250,7 @@ string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string firebase_database_url
 string gcm_defaultSenderId
+string getting_apps
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
@@ -4185,8 +4258,10 @@ string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string intent_sdk_name
 string item_view_role_description
 string left
+string load_again
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4290,12 +4365,22 @@ string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string no_upi_app_found_error
+string ok
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pay_via
+string pay_with
+string ph_merchantLogoUrl
+string ph_merchantName
+string phonepe_app_package
+string phonepe_app_package_preprod
+string progress
 string project_id
+string retry
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4314,6 +4399,11 @@ style Animation_Material3_SideSheetDialog
 style Animation_Material3_SideSheetDialog_Left
 style Animation_Material3_SideSheetDialog_Right
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_Overflow
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -4591,9 +4681,18 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style BasePhonePe_Theme_Base
+style BasePhonePe_Theme_Light_NoActionBar
+style BasePhonePeTheme
+style ButtonBrandRoundCorner
+style ButtonBrandTextOnly
 style CardView
 style CardView_Dark
 style CardView_Light
+style CircularProgress
+style DialogAnimation
+style FadeAnimation
+style JsonViewer_TextAppearance
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text
@@ -4614,6 +4713,8 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style MyActionBarLogo
+style PhonePeTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -4628,6 +4729,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style ProgressBarTimeout
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
@@ -4827,6 +4929,7 @@ style TextAppearance_MaterialComponents_Tooltip
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style TextAppearanceMedium
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight
@@ -4930,6 +5033,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -5421,6 +5525,8 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style phonepeThemeInvisible
+style phonepeThemeInvisibleCompat
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

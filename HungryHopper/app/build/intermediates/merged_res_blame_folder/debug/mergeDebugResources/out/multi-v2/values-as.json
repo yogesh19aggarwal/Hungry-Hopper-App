@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hungryhopper.app-mergeDebugResources-52:/values-as/values-as.xml",
+            "outputFile": "com.example.hungryhopper.app-mergeDebugResources-55:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\5d2e888f751b0bb5bbe43bd2eaba18c4\\transformed\\core-1.12.0\\res\\values-as\\values-as.xml",

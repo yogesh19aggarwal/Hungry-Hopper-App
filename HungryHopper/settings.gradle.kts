@@ -16,9 +16,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            setUrl("https://jitpack.io")
-        }
+        maven (
+            url = "https://jitpack.io"
+        )
+
+        maven (
+            url  = "https://phonepe.mycloudrepo.io/public/repositories/phonepe-intentsdk-android"
+        )
 //        maven (url = " https://jitpack.io")
     }
 }

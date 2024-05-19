@@ -3722,8 +3722,6 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
-id texView19
-id texView9
 id text
 id text2
 id textEnd
@@ -3743,7 +3741,6 @@ id textView14
 id textView16
 id textView2
 id textView23
-id textView3
 id textView4
 id textView5
 id textView6

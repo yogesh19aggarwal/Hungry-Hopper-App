@@ -53,9 +53,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final EditText signUpRestaurant;
 
   @NonNull
-  public final TextView texView9;
-
-  @NonNull
   public final TextInputLayout textInputLayout;
 
   @NonNull
@@ -75,9 +72,8 @@ public final class ActivitySignUpBinding implements ViewBinding {
       @NonNull AutoCompleteTextView listOfLocation, @NonNull ConstraintLayout main,
       @NonNull EditText signUpEmail, @NonNull EditText signUpName,
       @NonNull TextInputEditText signUpPass, @NonNull EditText signUpRestaurant,
-      @NonNull TextView texView9, @NonNull TextInputLayout textInputLayout,
-      @NonNull TextInputLayout textInputLayoutPass, @NonNull TextView textView4,
-      @NonNull TextView textView5, @NonNull TextView textView6) {
+      @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayoutPass,
+      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6) {
     this.rootView = rootView;
     this.alreadyBtn = alreadyBtn;
     this.createAccountBtn = createAccountBtn;
@@ -88,7 +84,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
     this.signUpName = signUpName;
     this.signUpPass = signUpPass;
     this.signUpRestaurant = signUpRestaurant;
-    this.texView9 = texView9;
     this.textInputLayout = textInputLayout;
     this.textInputLayoutPass = textInputLayoutPass;
     this.textView4 = textView4;
@@ -173,12 +168,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.texView9;
-      TextView texView9 = ViewBindings.findChildViewById(rootView, id);
-      if (texView9 == null) {
-        break missingId;
-      }
-
       id = R.id.textInputLayout;
       TextInputLayout textInputLayout = ViewBindings.findChildViewById(rootView, id);
       if (textInputLayout == null) {
@@ -211,7 +200,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
 
       return new ActivitySignUpBinding((ConstraintLayout) rootView, alreadyBtn, createAccountBtn,
           imageView, listOfLocation, main, signUpEmail, signUpName, signUpPass, signUpRestaurant,
-          texView9, textInputLayout, textInputLayoutPass, textView4, textView5, textView6);
+          textInputLayout, textInputLayoutPass, textView4, textView5, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

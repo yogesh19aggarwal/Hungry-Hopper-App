@@ -2,7 +2,6 @@ package com.example.adminhungryhopper
 
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -65,13 +64,13 @@ class AllItemActivity : AppCompatActivity() {
         database = FirebaseDatabase.getInstance()
         val foodRef: DatabaseReference = database.reference.child(MENU_NODE)
 
-        foodRef.addListenerForSingleValueEvent(object : ValueEventListener{
+        foodRef.addListenerForSingleValueEvent(object : ValueEventListener {
 
             override fun onDataChange(snapshot: DataSnapshot) {
                 //clear existing data
                 menuItems.clear()
 
-                for(foodSnapshot in snapshot.children){
+                for (foodSnapshot in snapshot.children) {
                     val menuItem = foodSnapshot.getValue(AllMenu::class.java)
                     menuItem?.let {
                         menuItems.add(it)
@@ -89,8 +88,7 @@ class AllItemActivity : AppCompatActivity() {
 
     private fun setAdapter() {
 
-        val adapter = AllItemAdapter(this, menuItems, databaseReference){
-            position->
+        val adapter = AllItemAdapter(this, menuItems, databaseReference) { position ->
             deleteMenuItem(position)
         }
         binding.menuRecyclerView.layoutManager = LinearLayoutManager(this)
@@ -101,15 +99,14 @@ class AllItemActivity : AppCompatActivity() {
         val menuItemToDelete = menuItems[position]
         val menuItemKey = menuItemToDelete.key
         val foodRef = database.reference.child(MENU_NODE).child(menuItemKey!!)
-        foodRef.removeValue().addOnCompleteListener {
-            task->
+        foodRef.removeValue().addOnCompleteListener { task ->
 
-            if(task.isSuccessful){
-                menuItems.removeAt(position)
-                binding.menuRecyclerView.adapter?.notifyItemRemoved(position)
-            } else{
-                Toast.makeText(this, "Item Not Deleted", Toast.LENGTH_SHORT).show()
-            }
+//            if(task.isSuccessful){
+//                menuItems.removeAt(position)
+//                binding.menuRecyclerView.adapter?.notifyItemRemoved(position)
+//            } else{
+//                Toast.makeText(this, "Item Not Deleted", Toast.LENGTH_SHORT).show()
+//            }
         }
     }
 }

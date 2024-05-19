@@ -56,17 +56,13 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
   public final AppCompatButton saveInfoButton;
 
   @NonNull
-  public final TextView texView19;
-
-  @NonNull
   public final TextView textView11;
 
   private ActivityAdminProfileBinding(@NonNull ConstraintLayout rootView, @NonNull EditText address,
       @NonNull ImageButton backBtn, @NonNull TextView clickToEdit, @NonNull TextView editProfile,
       @NonNull EditText email, @NonNull ConstraintLayout main, @NonNull EditText name,
       @NonNull EditText password, @NonNull EditText phoneNumber, @NonNull EditText restaurantName,
-      @NonNull AppCompatButton saveInfoButton, @NonNull TextView texView19,
-      @NonNull TextView textView11) {
+      @NonNull AppCompatButton saveInfoButton, @NonNull TextView textView11) {
     this.rootView = rootView;
     this.address = address;
     this.backBtn = backBtn;
@@ -79,7 +75,6 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
     this.phoneNumber = phoneNumber;
     this.restaurantName = restaurantName;
     this.saveInfoButton = saveInfoButton;
-    this.texView19 = texView19;
     this.textView11 = textView11;
   }
 
@@ -172,12 +167,6 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.texView19;
-      TextView texView19 = ViewBindings.findChildViewById(rootView, id);
-      if (texView19 == null) {
-        break missingId;
-      }
-
       id = R.id.textView11;
       TextView textView11 = ViewBindings.findChildViewById(rootView, id);
       if (textView11 == null) {
@@ -186,7 +175,7 @@ public final class ActivityAdminProfileBinding implements ViewBinding {
 
       return new ActivityAdminProfileBinding((ConstraintLayout) rootView, address, backBtn,
           clickToEdit, editProfile, email, main, name, password, phoneNumber, restaurantName,
-          saveInfoButton, texView19, textView11);
+          saveInfoButton, textView11);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

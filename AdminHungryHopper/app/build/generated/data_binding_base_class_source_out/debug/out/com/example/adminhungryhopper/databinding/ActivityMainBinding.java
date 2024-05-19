@@ -110,9 +110,6 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ConstraintLayout profileBtn;
 
   @NonNull
-  public final TextView texView19;
-
-  @NonNull
   public final TextView textView10;
 
   @NonNull
@@ -136,8 +133,8 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull ImageView imageView9, @NonNull ConstraintLayout logOutBtn,
       @NonNull ConstraintLayout main, @NonNull CardView outForDeliveryBtn,
       @NonNull TextView pendingOrderCount, @NonNull TextView pendingOrders,
-      @NonNull ConstraintLayout profileBtn, @NonNull TextView texView19,
-      @NonNull TextView textView10, @NonNull TextView textView7, @NonNull TextView textView9,
+      @NonNull ConstraintLayout profileBtn, @NonNull TextView textView10,
+      @NonNull TextView textView7, @NonNull TextView textView9,
       @NonNull TextView wholeTimeEarning) {
     this.rootView = rootView;
     this.addMenuMain = addMenuMain;
@@ -169,7 +166,6 @@ public final class ActivityMainBinding implements ViewBinding {
     this.pendingOrderCount = pendingOrderCount;
     this.pendingOrders = pendingOrders;
     this.profileBtn = profileBtn;
-    this.texView19 = texView19;
     this.textView10 = textView10;
     this.textView7 = textView7;
     this.textView9 = textView9;
@@ -373,12 +369,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.texView19;
-      TextView texView19 = ViewBindings.findChildViewById(rootView, id);
-      if (texView19 == null) {
-        break missingId;
-      }
-
       id = R.id.textView10;
       TextView textView10 = ViewBindings.findChildViewById(rootView, id);
       if (textView10 == null) {
@@ -408,7 +398,7 @@ public final class ActivityMainBinding implements ViewBinding {
           createUser, guideline, guideline2, guideline3, imageView10, imageView11, imageView2,
           imageView3, imageView4, imageView5, imageView6, imageView7, imageView8, imageView9,
           logOutBtn, main, outForDeliveryBtn, pendingOrderCount, pendingOrders, profileBtn,
-          texView19, textView10, textView7, textView9, wholeTimeEarning);
+          textView10, textView7, textView9, wholeTimeEarning);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

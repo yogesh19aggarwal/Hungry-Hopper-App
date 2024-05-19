@@ -47,9 +47,6 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView textView10;
 
   @NonNull
-  public final TextView textView5;
-
-  @NonNull
   public final TextView textView6;
 
   @NonNull
@@ -65,8 +62,8 @@ public final class ActivityLoginBinding implements ViewBinding {
       @NonNull TextView dontHaveAccount, @NonNull EditText email,
       @NonNull AppCompatButton googleBtn, @NonNull ImageView imageView3,
       @NonNull AppCompatButton loginbtn, @NonNull ConstraintLayout main, @NonNull EditText password,
-      @NonNull TextView textView10, @NonNull TextView textView5, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull TextView textView10, @NonNull TextView textView6, @NonNull TextView textView7,
+      @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.dontHaveAccount = dontHaveAccount;
     this.email = email;
@@ -76,7 +73,6 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.main = main;
     this.password = password;
     this.textView10 = textView10;
-    this.textView5 = textView5;
     this.textView6 = textView6;
     this.textView7 = textView7;
     this.textView8 = textView8;
@@ -154,12 +150,6 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
       id = R.id.textView6;
       TextView textView6 = ViewBindings.findChildViewById(rootView, id);
       if (textView6 == null) {
@@ -185,8 +175,8 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, dontHaveAccount, email,
-          googleBtn, imageView3, loginbtn, main, password, textView10, textView5, textView6,
-          textView7, textView8, textView9);
+          googleBtn, imageView3, loginbtn, main, password, textView10, textView6, textView7,
+          textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

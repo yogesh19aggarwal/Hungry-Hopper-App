@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hungryhopper.app-mergeDebugResources-52:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.hungryhopper.app-mergeDebugResources-55:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\06bde4a8f5591eb9daeb5be1aa33e1e5\\transformed\\play-services-auth-21.1.0\\res\\values-watch-v20\\values.xml",

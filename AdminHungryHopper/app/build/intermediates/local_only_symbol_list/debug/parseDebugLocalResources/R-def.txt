@@ -152,8 +152,6 @@ id signUpEmail
 id signUpName
 id signUpPass
 id signUpRestaurant
-id texView19
-id texView9
 id textInputLayout
 id textInputLayoutEmail
 id textInputLayoutPass
@@ -166,7 +164,6 @@ id textView14
 id textView16
 id textView2
 id textView23
-id textView3
 id textView4
 id textView5
 id textView6

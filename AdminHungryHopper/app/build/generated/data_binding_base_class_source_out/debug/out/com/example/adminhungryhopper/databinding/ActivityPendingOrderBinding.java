@@ -31,20 +31,15 @@ public final class ActivityPendingOrderBinding implements ViewBinding {
   public final RecyclerView pendingRecyclerView;
 
   @NonNull
-  public final TextView texView19;
-
-  @NonNull
   public final TextView textView11;
 
   private ActivityPendingOrderBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backBtn, @NonNull ConstraintLayout main,
-      @NonNull RecyclerView pendingRecyclerView, @NonNull TextView texView19,
-      @NonNull TextView textView11) {
+      @NonNull RecyclerView pendingRecyclerView, @NonNull TextView textView11) {
     this.rootView = rootView;
     this.backBtn = backBtn;
     this.main = main;
     this.pendingRecyclerView = pendingRecyclerView;
-    this.texView19 = texView19;
     this.textView11 = textView11;
   }
 
@@ -89,12 +84,6 @@ public final class ActivityPendingOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.texView19;
-      TextView texView19 = ViewBindings.findChildViewById(rootView, id);
-      if (texView19 == null) {
-        break missingId;
-      }
-
       id = R.id.textView11;
       TextView textView11 = ViewBindings.findChildViewById(rootView, id);
       if (textView11 == null) {
@@ -102,7 +91,7 @@ public final class ActivityPendingOrderBinding implements ViewBinding {
       }
 
       return new ActivityPendingOrderBinding((ConstraintLayout) rootView, backBtn, main,
-          pendingRecyclerView, texView19, textView11);
+          pendingRecyclerView, textView11);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

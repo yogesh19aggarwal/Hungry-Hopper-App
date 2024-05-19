@@ -33,18 +33,13 @@ public final class ActivityStartBinding implements ViewBinding {
   @NonNull
   public final TextView textView4;
 
-  @NonNull
-  public final TextView textView5;
-
   private ActivityStartBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
-      @NonNull ConstraintLayout main, @NonNull AppCompatButton next, @NonNull TextView textView4,
-      @NonNull TextView textView5) {
+      @NonNull ConstraintLayout main, @NonNull AppCompatButton next, @NonNull TextView textView4) {
     this.rootView = rootView;
     this.imageView2 = imageView2;
     this.main = main;
     this.next = next;
     this.textView4 = textView4;
-    this.textView5 = textView5;
   }
 
   @Override
@@ -94,14 +89,8 @@ public final class ActivityStartBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
       return new ActivityStartBinding((ConstraintLayout) rootView, imageView2, main, next,
-          textView4, textView5);
+          textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

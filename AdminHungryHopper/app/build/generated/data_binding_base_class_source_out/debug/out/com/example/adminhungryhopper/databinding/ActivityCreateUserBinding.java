@@ -47,9 +47,6 @@ public final class ActivityCreateUserBinding implements ViewBinding {
   public final TextInputEditText password;
 
   @NonNull
-  public final TextView texView9;
-
-  @NonNull
   public final TextInputLayout textInputLayoutPass;
 
   @NonNull
@@ -61,9 +58,8 @@ public final class ActivityCreateUserBinding implements ViewBinding {
   private ActivityCreateUserBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backBtn, @NonNull AppCompatButton createUserBtn, @NonNull EditText email,
       @NonNull ImageView imageView, @NonNull ConstraintLayout main, @NonNull EditText name,
-      @NonNull TextInputEditText password, @NonNull TextView texView9,
-      @NonNull TextInputLayout textInputLayoutPass, @NonNull TextView textView4,
-      @NonNull TextView textView5) {
+      @NonNull TextInputEditText password, @NonNull TextInputLayout textInputLayoutPass,
+      @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
     this.backBtn = backBtn;
     this.createUserBtn = createUserBtn;
@@ -72,7 +68,6 @@ public final class ActivityCreateUserBinding implements ViewBinding {
     this.main = main;
     this.name = name;
     this.password = password;
-    this.texView9 = texView9;
     this.textInputLayoutPass = textInputLayoutPass;
     this.textView4 = textView4;
     this.textView5 = textView5;
@@ -143,12 +138,6 @@ public final class ActivityCreateUserBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.texView9;
-      TextView texView9 = ViewBindings.findChildViewById(rootView, id);
-      if (texView9 == null) {
-        break missingId;
-      }
-
       id = R.id.textInputLayoutPass;
       TextInputLayout textInputLayoutPass = ViewBindings.findChildViewById(rootView, id);
       if (textInputLayoutPass == null) {
@@ -168,8 +157,7 @@ public final class ActivityCreateUserBinding implements ViewBinding {
       }
 
       return new ActivityCreateUserBinding((ConstraintLayout) rootView, backBtn, createUserBtn,
-          email, imageView, main, name, password, texView9, textInputLayoutPass, textView4,
-          textView5);
+          email, imageView, main, name, password, textInputLayoutPass, textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

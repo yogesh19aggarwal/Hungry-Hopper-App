@@ -29,6 +29,9 @@ public final class ActivityPayOutBinding implements ViewBinding {
   public final ImageButton backToCart;
 
   @NonNull
+  public final TextView cashOnDelivery;
+
+  @NonNull
   public final FrameLayout main;
 
   @NonNull
@@ -46,19 +49,24 @@ public final class ActivityPayOutBinding implements ViewBinding {
   @NonNull
   public final TextView totalAmount;
 
+  @NonNull
+  public final TextView upiBtn;
+
   private ActivityPayOutBinding(@NonNull FrameLayout rootView, @NonNull EditText address,
-      @NonNull ImageButton backToCart, @NonNull FrameLayout main, @NonNull EditText name,
-      @NonNull AppCompatButton payOutBtn, @NonNull EditText phoneNumber,
-      @NonNull TextView textView23, @NonNull TextView totalAmount) {
+      @NonNull ImageButton backToCart, @NonNull TextView cashOnDelivery, @NonNull FrameLayout main,
+      @NonNull EditText name, @NonNull AppCompatButton payOutBtn, @NonNull EditText phoneNumber,
+      @NonNull TextView textView23, @NonNull TextView totalAmount, @NonNull TextView upiBtn) {
     this.rootView = rootView;
     this.address = address;
     this.backToCart = backToCart;
+    this.cashOnDelivery = cashOnDelivery;
     this.main = main;
     this.name = name;
     this.payOutBtn = payOutBtn;
     this.phoneNumber = phoneNumber;
     this.textView23 = textView23;
     this.totalAmount = totalAmount;
+    this.upiBtn = upiBtn;
   }
 
   @Override
@@ -100,6 +108,12 @@ public final class ActivityPayOutBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cashOnDelivery;
+      TextView cashOnDelivery = ViewBindings.findChildViewById(rootView, id);
+      if (cashOnDelivery == null) {
+        break missingId;
+      }
+
       FrameLayout main = (FrameLayout) rootView;
 
       id = R.id.name;
@@ -132,8 +146,14 @@ public final class ActivityPayOutBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPayOutBinding((FrameLayout) rootView, address, backToCart, main, name,
-          payOutBtn, phoneNumber, textView23, totalAmount);
+      id = R.id.upiBtn;
+      TextView upiBtn = ViewBindings.findChildViewById(rootView, id);
+      if (upiBtn == null) {
+        break missingId;
+      }
+
+      return new ActivityPayOutBinding((FrameLayout) rootView, address, backToCart, cashOnDelivery,
+          main, name, payOutBtn, phoneNumber, textView23, totalAmount, upiBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

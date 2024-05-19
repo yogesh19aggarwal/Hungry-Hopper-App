@@ -120,14 +120,14 @@ class CartAdapter(
 
         cartItemsReference.child(uniqueKey).removeValue().addOnSuccessListener {
             cartItems.removeAt(position)
-            cartImages.removeAt(position)
-            cartDescriptions.removeAt(position)
-            cartQuantity.removeAt(position)
-            cartItemsPrice.removeAt(position)
-            cartIngredients.removeAt(position)
-
-            itemQuantities =
-                itemQuantities.filterIndexed { index, i -> index != position }.toIntArray()
+//            cartImages.removeAt(position)
+//            cartDescriptions.removeAt(position)
+//            cartQuantity.removeAt(position)
+//            cartItemsPrice.removeAt(position)
+//            cartIngredients.removeAt(position)
+//
+//            itemQuantities =
+//                itemQuantities.filterIndexed { index, i -> index != position }.toIntArray()
             notifyItemRemoved(position)
             notifyItemRangeChanged(0, cartItems.size)
             Toast.makeText(context, " Item Deleted", Toast.LENGTH_SHORT).show()
