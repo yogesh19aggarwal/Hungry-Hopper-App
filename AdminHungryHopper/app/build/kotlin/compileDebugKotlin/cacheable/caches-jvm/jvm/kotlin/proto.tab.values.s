@@ -1,1 +1,1 @@
-İqímàmÍoóoÍnÚnİnÕpÒoĞqÕräsÌqÁnønŞoŞoÛoÂpÂpàp
+İqímàmÍoóoÍnÚnİnÕpÒoĞqÕräsÌqÁnønŞoŞoÛoÂpÂpàpğuüt

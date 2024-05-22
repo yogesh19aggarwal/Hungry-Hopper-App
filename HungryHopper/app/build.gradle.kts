@@ -60,7 +60,7 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
     implementation("com.google.android.gms:play-services-auth:21.1.0")
     implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
-    implementation ("phonepe.intentsdk.android.release:IntentSDK:2.4.3")
+    implementation ("com.razorpay:checkout:1.6.38")
 
     //for glide
     implementation (libs.glide)

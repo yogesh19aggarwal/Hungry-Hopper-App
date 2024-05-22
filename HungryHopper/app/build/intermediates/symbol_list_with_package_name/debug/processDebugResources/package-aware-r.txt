@@ -47,8 +47,6 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
-anim slide_down
-anim slide_up
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -140,12 +138,14 @@ attr alpha
 attr alphabeticModifiers
 attr altSrc
 attr alwaysExpand
+attr ambientEnabled
 attr animateCircleAngleTo
 attr animateMenuItems
 attr animateNavigationIcon
 attr animateRelativeTo
 attr animationMode
 attr appBarLayoutStyle
+attr appTheme
 attr applyMotionScene
 attr arcMode
 attr argType
@@ -247,6 +247,17 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr buyButtonAppearance
+attr buyButtonHeight
+attr buyButtonText
+attr buyButtonWidth
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -460,6 +471,7 @@ attr customNavigationLayout
 attr customPixelDimension
 attr customReference
 attr customStringValue
+attr customThemeStyle
 attr data
 attr dataPattern
 attr dayInvalidStyle
@@ -530,6 +542,7 @@ attr enforceMaterialTheme
 attr enforceTextAppearance
 attr ensureMinTouchTargetSize
 attr enterAnim
+attr environment
 attr errorAccessibilityLabel
 attr errorAccessibilityLiveRegion
 attr errorContentDescription
@@ -626,6 +639,8 @@ attr fontWeight
 attr forceApplySystemWindowInsetTop
 attr forceDefaultNavigationOnClickListener
 attr foregroundInsidePadding
+attr fragmentMode
+attr fragmentStyle
 attr framePosition
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
@@ -738,6 +753,10 @@ attr labelVisibilityMode
 attr largeFontVerticalOffsetAdjustment
 attr lastBaselineToBottomHeight
 attr lastItemDecorated
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr launchSingleTop
 attr layout
 attr layoutDescription
@@ -834,14 +853,23 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
+attr liteMode
 attr logo
 attr logoAdjustViewBounds
 attr logoDescription
 attr logoScaleType
+attr mapType
 attr marginHorizontal
 attr marginLeftSystemWindowInsets
 attr marginRightSystemWindowInsets
 attr marginTopSystemWindowInsets
+attr maskedWalletDetailsBackground
+attr maskedWalletDetailsButtonBackground
+attr maskedWalletDetailsButtonTextAppearance
+attr maskedWalletDetailsHeaderTextAppearance
+attr maskedWalletDetailsLogoImageType
+attr maskedWalletDetailsLogoTextColor
+attr maskedWalletDetailsTextAppearance
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogButtonSpacerVisibility
 attr materialAlertDialogTheme
@@ -1319,6 +1347,7 @@ attr toolbarId
 attr toolbarNavigationButtonStyle
 attr toolbarStyle
 attr toolbarSurfaceStyle
+attr toolbarTextColorStyle
 attr tooltipForegroundColor
 attr tooltipFrameBackground
 attr tooltipStyle
@@ -1349,11 +1378,20 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr upDuration
 attr uri
 attr useCompatPadding
 attr useDrawerArrowDrawable
 attr useMaterialThemeColors
+attr useViewLifecycle
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
@@ -1381,13 +1419,15 @@ attr windowFixedWidthMinor
 attr windowMinWidthMajor
 attr windowMinWidthMinor
 attr windowNoTitle
+attr windowTransitionStyle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool isTablet
 bool mtrl_btn_textappearance_all_caps
-bool ph_enableToolbarShadow
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -1440,22 +1480,6 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-color colorBackgroundPrimary
-color colorBrandPrimary
-color colorButtonBrandFillDisabled
-color colorButtonBrandText
-color colorButtonBrandTextDisabled
-color colorButtonBrandTextFocused
-color colorButtonBrandTextPressed
-color colorFillDisabled
-color colorFillHint
-color colorFillPrimary
-color colorFillSecondary
-color colorText
-color colorTextDisabled
-color colorTextPrimary
-color colorTextSecondary
-color color_green_ic_radio_button_checked
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1518,10 +1542,6 @@ color grey_font
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
-color jsonViewer_textColorBool
-color jsonViewer_textColorNull
-color jsonViewer_textColorNumber
-color jsonViewer_textColorString
 color light_font
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -2176,13 +2196,6 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
-color ph_colorAccent
-color ph_colorPrimary
-color ph_colorPrimaryDark
-color ph_textColor
-color ph_textColorAccent
-color phone_pe_gradient_end_color
-color phone_pe_gradient_start_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2209,6 +2222,19 @@ color text_shadow
 color text_shadow_white
 color tooltip_background_dark
 color tooltip_background_light
+color wallet_bright_foreground_disabled_holo_light
+color wallet_bright_foreground_holo_dark
+color wallet_bright_foreground_holo_light
+color wallet_dim_foreground_disabled_holo_dark
+color wallet_dim_foreground_holo_dark
+color wallet_highlighted_text_holo_dark
+color wallet_highlighted_text_holo_light
+color wallet_hint_foreground_holo_dark
+color wallet_hint_foreground_holo_light
+color wallet_holo_blue_light
+color wallet_link_text_light
+color wallet_primary_text_holo_light
+color wallet_secondary_text_holo_dark
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -2306,13 +2332,6 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen def_drawer_elevation
-dimen default_corner_radius
-dimen default_height_min
-dimen default_radius_pic_chip_medium
-dimen default_space
-dimen default_space_Big
-dimen default_space_medium_small
-dimen default_space_small
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -2361,8 +2380,6 @@ dimen design_tab_scrollable_min_width
 dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
-dimen dimen_text_button
-dimen dimen_text_subheader
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
@@ -3009,7 +3026,6 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-dimen progressbar_radius_max
 dimen sliding_pane_detail_pane_width
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -3103,8 +3119,6 @@ drawable arrow_down
 drawable arrow_left
 drawable avd_hide_password
 drawable avd_show_password
-drawable background_button_brand_round_corner
-drawable background_top_border
 drawable banner1
 drawable banner2
 drawable banner3
@@ -3120,8 +3134,6 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable burrgar
-drawable button_brand_text_color
-drawable button_brand_text_only_text_color
 drawable cart
 drawable cashondelivery
 drawable common_full_open_on_phone
@@ -3164,6 +3176,7 @@ drawable googleg_standard_color_18
 drawable greenbutton
 drawable history
 drawable home
+drawable ic_alert
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3173,8 +3186,6 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
-drawable ic_error_outline
-drawable ic_error_outline_black
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3185,10 +3196,12 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_phonepe_icon
 drawable ic_search_black_24
+drawable ic_tick_mark
 drawable lock
 drawable logo
+drawable logout
+drawable logout_btn
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3274,17 +3287,24 @@ drawable plus
 drawable profile_edit_text_shape
 drawable restaurant
 drawable rightgreen
+drawable rzp_border
+drawable rzp_border_bottom
+drawable rzp_green_button
+drawable rzp_loader_circle
+drawable rzp_logo
+drawable rzp_name_logo
+drawable rzp_poweredby
+drawable rzp_secured_by_bg
+drawable rzp_white_border_black_bg
 drawable sademoji
 drawable search
 drawable search_box
-drawable solid_circle
 drawable test_level_drawable
 drawable textview
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable trash
 drawable truck
-drawable upi_apps_list_item_stroked_item
 drawable user
 drawable whitebutton
 font lato_bold
@@ -3373,13 +3393,15 @@ id all
 id allStates
 id alreadyHaveAcc
 id always
+id android_pay
+id android_pay_dark
+id android_pay_light
+id android_pay_light_with_border
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
-id app_icon
-id app_name
 id arc
 id asConfigured
 id async
@@ -3395,6 +3417,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id book_now
 id bottom
 id bottomNavigationView
 id bounce
@@ -3412,6 +3435,10 @@ id buyAgainBtn
 id buyAgainFood
 id buyAgainImage
 id buyAgainPrice
+id buyButton
+id buy_now
+id buy_with
+id buy_with_google
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3434,14 +3461,12 @@ id center_vertical
 id chain
 id chain2
 id chains
+id check_list
 id checkbox
 id checked
 id chronometer
 id circle_center
-id circle_four
-id circle_one
-id circle_three
-id circle_two
+id classic
 id clear_text
 id clickToEdit
 id clip_horizontal
@@ -3490,6 +3515,8 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id donate_with
+id donate_with_google
 id dontHaveAccount
 id dragAnticlockwise
 id dragClockwise
@@ -3514,8 +3541,6 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
-id error_container
-id error_message
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3547,10 +3572,14 @@ id glide_custom_view_target_tag
 id goHomeBtn
 id gone
 id googleBtn
+id googleMaterial2
 id googleSignIn
+id google_wallet_classic
+id google_wallet_grayscale
+id google_wallet_monochrome
 id graph
 id graph_wrap
-id gridview
+id grayscale
 id group_divider
 id grouping
 id groups
@@ -3562,11 +3591,14 @@ id historyFragment
 id historyImage
 id historyPrice
 id historyRecyclerView
+id holo_dark
+id holo_light
 id home
 id homeAsUp
 id homeFragment
 id honorRequest
 id horizontal_only
+id hybrid
 id icon
 id icon_group
 id icon_only
@@ -3590,6 +3622,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_check_mark
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3604,9 +3637,11 @@ id linear
 id linear_layout
 id listMode
 id list_item
-id loading_animation
+id ll_loader
 id locale
+id logOutBtn
 id loginbtn
+id logo_only
 id ltr
 id m3_side_sheet
 id main
@@ -3614,6 +3649,7 @@ id marquee
 id masked
 id match_constraint
 id match_parent
+id material
 id material_clock_display
 id material_clock_display_and_toggle
 id material_clock_face
@@ -3644,6 +3680,7 @@ id message
 id middle
 id mini
 id minusButton
+id monochrome
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3735,11 +3772,9 @@ id password_toggle
 id path
 id pathRelative
 id payOutBtn
-id pay_via_text_view
 id peekHeight
 id percent
 id phoneNumber
-id phonepe_webview
 id pin
 id plusButton
 id popularRecyclerView
@@ -3747,6 +3782,7 @@ id position
 id postLayout
 id pressed
 id proceed
+id production
 id profileFragment
 id progressBar
 id progress_circular
@@ -3767,6 +3803,12 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id rzp_innerbox
+id rzp_outerbox
+id rzp_securedpayments
+id rzp_theMainMagicView
+id sandbox
+id satellite
 id saveBtn
 id save_non_transition_alpha
 id save_overlay_view
@@ -3793,6 +3835,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id selectionDetails
 id selection_type
 id sharedValueSet
 id sharedValueUnset
@@ -3832,6 +3875,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id strict_sandbox
 id submenuarrow
 id submit_area
 id supportScrollUp
@@ -3849,6 +3893,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id terrain
+id test
 id text
 id text2
 id textEnd
@@ -3907,11 +3953,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_sub_item
+id tv_title
 id unchecked
 id uniform
 id unlabeled
 id up
-id upiBtn
 id useLogo
 id userName
 id vertical_only
@@ -4055,7 +4102,6 @@ layout activity_details
 layout activity_login
 layout activity_main
 layout activity_pay_out
-layout activity_phonepe_web
 layout activity_recent_order_items
 layout activity_sign_up
 layout activity_splash_screen
@@ -4152,22 +4198,23 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout pager_row
 layout popular_item_list
-layout progress_bar
 layout recent_buy_item
+layout rzp_loader
+layout rzp_magic_base
+layout sdk_integration_status
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout single_item
 layout support_simple_spinner_dropdown_item
-layout upi_apps_dialog_layout
-layout upi_apps_dialog_unit_item
-layout v3_debit_response_error
+layout wallet_test_layout
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation navigation
 plurals mtrl_badge_content_description
 raw firebase_common_keep
-raw loader
+raw rzp_config
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4198,7 +4245,6 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
-string back_button_warning
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -4212,8 +4258,6 @@ string call_notification_hang_up_action
 string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
-string cancel
-string cancel_confirmation
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -4241,7 +4285,6 @@ string default_web_client_id
 string dest_title
 string error_a11y_label
 string error_icon_content_description
-string error_message
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -4250,7 +4293,6 @@ string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string firebase_database_url
 string gcm_defaultSenderId
-string getting_apps
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
@@ -4258,10 +4300,8 @@ string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
-string intent_sdk_name
 string item_view_role_description
 string left
-string load_again
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4365,22 +4405,12 @@ string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
-string no_upi_app_found_error
-string ok
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string pay_via
-string pay_with
-string ph_merchantLogoUrl
-string ph_merchantName
-string phonepe_app_package
-string phonepe_app_package_preprod
-string progress
 string project_id
-string retry
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4388,6 +4418,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string wallet_buy_button_place_holder
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4399,11 +4430,6 @@ style Animation_Material3_SideSheetDialog
 style Animation_Material3_SideSheetDialog_Left
 style Animation_Material3_SideSheetDialog_Right
 style Animation_MaterialComponents_BottomSheetDialog
-style AppTheme
-style AppTheme_AppBarOverlay
-style AppTheme_NoActionBar
-style AppTheme_Overflow
-style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -4681,18 +4707,10 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
-style BasePhonePe_Theme_Base
-style BasePhonePe_Theme_Light_NoActionBar
-style BasePhonePeTheme
-style ButtonBrandRoundCorner
-style ButtonBrandTextOnly
 style CardView
 style CardView_Dark
 style CardView_Light
-style CircularProgress
-style DialogAnimation
-style FadeAnimation
-style JsonViewer_TextAppearance
+style CheckoutTheme
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text
@@ -4713,8 +4731,6 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
-style MyActionBarLogo
-style PhonePeTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -4729,7 +4745,6 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
-style ProgressBarTimeout
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
@@ -4929,7 +4944,6 @@ style TextAppearance_MaterialComponents_Tooltip
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
-style TextAppearanceMedium
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight
@@ -5033,7 +5047,6 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -5148,6 +5161,10 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText
 style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
+style WalletFragmentDefaultButtonTextAppearance
+style WalletFragmentDefaultDetailsHeaderTextAppearance
+style WalletFragmentDefaultDetailsTextAppearance
+style WalletFragmentDefaultStyle
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -5525,8 +5542,6 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
-style phonepeThemeInvisible
-style phonepeThemeInvisibleCompat
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -5577,6 +5592,7 @@ styleable ConstraintSet android_orientation android_id android_visibility androi
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customReference customStringValue methodName
+styleable CustomWalletTheme customThemeStyle toolbarTextColorStyle windowTransitionStyle
 styleable DialogFragmentNavigator android_name
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable DrawerLayout elevation
@@ -5610,6 +5626,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop backgroundTint
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType android_popupElevation dropDownBackgroundTint simpleItemLayout simpleItemSelectedColor simpleItemSelectedRippleColor simpleItems
@@ -5698,7 +5715,10 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable WalletFragmentOptions appTheme environment fragmentMode fragmentStyle
+styleable WalletFragmentStyle buyButtonAppearance buyButtonHeight buyButtonText buyButtonWidth maskedWalletDetailsBackground maskedWalletDetailsButtonBackground maskedWalletDetailsButtonTextAppearance maskedWalletDetailsHeaderTextAppearance maskedWalletDetailsLogoImageType maskedWalletDetailsLogoTextColor maskedWalletDetailsTextAppearance
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_provider_path
 xml image_share_filepaths

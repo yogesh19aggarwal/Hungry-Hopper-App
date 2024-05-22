@@ -40,6 +40,5 @@ class DeliveryAdapter(private var customerList: MutableList<String>, private var
                 orderStatus.backgroundTintList = ColorStateList.valueOf(colorMap[moneyStaus[position]]?:Color.BLACK)
             }
         }
-
     }
 }

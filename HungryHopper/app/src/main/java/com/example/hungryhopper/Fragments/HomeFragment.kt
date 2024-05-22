@@ -14,7 +14,6 @@ import com.example.hungryhopper.Model.MenuItems
 import com.example.hungryhopper.R
 import com.example.hungryhopper.Utils.MENU_NODE
 import com.example.hungryhopper.adapter.MenuAdapter
-import com.example.hungryhopper.adapter.PopularAdapter
 import com.example.hungryhopper.databinding.FragmentHomeBinding
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -30,7 +29,6 @@ class HomeFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -78,7 +76,6 @@ class HomeFragment : Fragment() {
 //        val price = listOf("$5", "$7", "$8", "$10")
 //        val popularFoodImages =
 //            listOf(R.drawable.menu1, R.drawable.menu2, R.drawable.menu3, R.drawable.menu4)
-
     }
 
     private fun retrieveAndDisplayPopularItems() {
@@ -94,21 +91,18 @@ class HomeFragment : Fragment() {
                     val menuItem = foodSnapshot.getValue(MenuItems::class.java)
                     menuItem?.let { menuItems.add(it) }
                 }
-
                 randomPopularItems()
             }
 
             override fun onCancelled(error: DatabaseError) {
                 Toast.makeText(context, "Data fetch failed", Toast.LENGTH_SHORT).show()
             }
-
         })
-
     }
 
     private fun randomPopularItems() {
         val index = menuItems.indices.toList().shuffled()
-        val numItems = 6
+        val numItems = 4
         val subSetItems = index.take(numItems).map { menuItems[it] }
 
         setPopularItemsAdapter(subSetItems)
@@ -119,5 +113,4 @@ class HomeFragment : Fragment() {
         binding.popularRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.popularRecyclerView.adapter = adapter
     }
-
 }

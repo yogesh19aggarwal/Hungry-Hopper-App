@@ -1,11 +1,13 @@
 package com.example.hungryhopper.Fragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import com.example.hungryhopper.Auth.LoginActivity
 import com.example.hungryhopper.Model.UserModel
 import com.example.hungryhopper.R
 import com.example.hungryhopper.databinding.ActivityDetailsBinding
@@ -47,6 +49,13 @@ class ProfileFragment : Fragment() {
             binding.address.isEnabled = true
             binding.phoneNumber.isEnabled = true
 
+        }
+
+        binding.logOutBtn.setOnClickListener {
+            auth.signOut()
+            val intent = Intent(requireContext(), LoginActivity::class.java)
+            startActivity(intent)
+            activity?.finish()
         }
 
         setUserData()

@@ -18,7 +18,6 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.phonepe.intent.sdk.api.PhonePe
 
 class PayOutActivity : AppCompatActivity() {
 
@@ -60,7 +59,7 @@ class PayOutActivity : AppCompatActivity() {
         val backToCartBtn = binding.backToCart
         val payOut = binding.payOutBtn
 
-        PhonePe.init(this)
+
 
         backToCartBtn.setOnClickListener {
             finish()
@@ -77,11 +76,6 @@ class PayOutActivity : AppCompatActivity() {
             } else{
                 placeOrder()
             }
-
-        }
-
-        binding.upiBtn.setOnClickListener {
-
         }
 
         val intent = intent
@@ -96,7 +90,6 @@ class PayOutActivity : AppCompatActivity() {
 
         binding.totalAmount.isEnabled = false
         binding.totalAmount.setText(totalAmount)
-
     }
 
     private fun placeOrder() {

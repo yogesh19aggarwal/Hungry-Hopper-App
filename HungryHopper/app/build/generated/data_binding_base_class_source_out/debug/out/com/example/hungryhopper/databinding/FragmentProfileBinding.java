@@ -31,6 +31,9 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
+  public final AppCompatButton logOutBtn;
+
+  @NonNull
   public final EditText name;
 
   @NonNull
@@ -43,13 +46,14 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView textView11;
 
   private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull EditText address,
-      @NonNull TextView clickToEdit, @NonNull EditText email, @NonNull EditText name,
-      @NonNull EditText phoneNumber, @NonNull AppCompatButton saveBtn,
+      @NonNull TextView clickToEdit, @NonNull EditText email, @NonNull AppCompatButton logOutBtn,
+      @NonNull EditText name, @NonNull EditText phoneNumber, @NonNull AppCompatButton saveBtn,
       @NonNull TextView textView11) {
     this.rootView = rootView;
     this.address = address;
     this.clickToEdit = clickToEdit;
     this.email = email;
+    this.logOutBtn = logOutBtn;
     this.name = name;
     this.phoneNumber = phoneNumber;
     this.saveBtn = saveBtn;
@@ -101,6 +105,12 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.logOutBtn;
+      AppCompatButton logOutBtn = ViewBindings.findChildViewById(rootView, id);
+      if (logOutBtn == null) {
+        break missingId;
+      }
+
       id = R.id.name;
       EditText name = ViewBindings.findChildViewById(rootView, id);
       if (name == null) {
@@ -125,8 +135,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((FrameLayout) rootView, address, clickToEdit, email, name,
-          phoneNumber, saveBtn, textView11);
+      return new FragmentProfileBinding((FrameLayout) rootView, address, clickToEdit, email,
+          logOutBtn, name, phoneNumber, saveBtn, textView11);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

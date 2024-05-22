@@ -29,8 +29,8 @@ import com.google.firebase.ktx.Firebase
 class SignUpActivity : AppCompatActivity() {
 
     private lateinit var email: String
-    private lateinit var password: String
-    private lateinit var username: String
+    private lateinit var pass: String
+    private lateinit var userName: String
 
     private lateinit var auth: FirebaseAuth
     private lateinit var database: DatabaseReference
@@ -71,13 +71,13 @@ class SignUpActivity : AppCompatActivity() {
         binding.signUpbtn.setOnClickListener {
 
             email = binding.email.text.toString().trim()
-            username = binding.userName.toString()
-            password = binding.password.toString().trim()
+            userName = binding.userName.toString()
+            pass = binding.password.toString().trim()
 
-            if (email.isBlank() || password.isBlank() || username.isBlank()) {
+            if (email.isBlank() || pass.isBlank() || userName.isBlank()) {
                 Toast.makeText(this, "Please Fill all the Details", Toast.LENGTH_SHORT).show()
             } else {
-                createAccount(email, password)
+                createAccount(email, pass)
             }
         }
 
@@ -125,10 +125,12 @@ class SignUpActivity : AppCompatActivity() {
 
     private fun saveUserData() {
         email = binding.email.text.toString().trim()
-        username = binding.userName.toString()
-        password = binding.password.toString().trim()
+        Log.d("email", email)
+        userName = binding.userName.text.toString()
+        Log.d("name", userName)
+        pass = binding.password.text.toString().trim()
 
-        val user = UserModel(username, email, password)
+        val user = UserModel(userName, email, pass)
         val userId = FirebaseAuth.getInstance().currentUser!!.uid
         database.child(USER_NODE).child(userId).setValue(user)
     }

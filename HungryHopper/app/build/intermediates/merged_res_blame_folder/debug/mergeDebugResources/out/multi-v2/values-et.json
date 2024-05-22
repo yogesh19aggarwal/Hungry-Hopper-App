@@ -123,6 +123,23 @@
                         "endColumns": "105,98,110,85,101,116,80,76,91,93,95,101,108,93,100,93,91,92,82,110,103,98,109,101,98,165,101,82",
                         "endOffsets": "417,516,627,713,815,932,1013,1090,1182,1276,1372,1474,1583,1677,1778,1872,1964,2057,2140,2251,2355,2454,2564,2666,2765,2931,3033,12143"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Yogesh Aggarwal\\.gradle\\caches\\transforms-4\\156452633005cc63880cf9238fb20f2f\\transformed\\play-services-wallet-18.1.3\\res\\values-et\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "134",
+                        "startColumns": "4",
+                        "startOffsets": "12249",
+                        "endColumns": "75",
+                        "endOffsets": "12320"
+                    }
                 }
             ]
         }

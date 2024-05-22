@@ -149,26 +149,12 @@
                 android:fontFamily="@font/yeonsung_regular"
                 android:text="Payment Method" />
 
-            <TextView
-                android:id="@+id/upiBtn"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:text="Upi"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:clickable="true"
-                android:fontFamily="@font/lato_regular"/>
-
-            <TextView
+            <ImageView
                 android:id="@+id/cashOnDelivery"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text="Cash On Delivery"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:clickable="true"
-                android:fontFamily="@font/lato_regular"/>
+                android:src="@drawable/cashondelivery"
+                android:gravity="center"/>
         </LinearLayout>
 
         <LinearLayout
